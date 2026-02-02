@@ -34,19 +34,22 @@ const PlaceOrder = () => {
       if (!product) continue
 
       for (const key in cartItems[itemId]) {
-        orderItems.push({
-          name: product.name,
-          size: key,
-          quantity: cartItems[itemId][key],
-          price: product.price
-        })
+        if (cartItems[itemId][key] > 0) { // Only add if quantity > 0
+          orderItems.push({
+            name: product.name,
+            size: key,
+            quantity: cartItems[itemId][key],
+            price: product.price
+          })
+        }
       }
     }
 
+    // Keep total in payload for your backend records if needed
     const orderPayload = {
       customer: formData,
       items: orderItems,
-      total: getCartAmount()
+      total: getCartAmount() 
     }
 
     try {
@@ -59,6 +62,7 @@ const PlaceOrder = () => {
       console.error('Email sending failed', error)
     }
 
+    // REMOVED TOTAL FROM THE MESSAGE BELOW
     const message = `
 Hola Winelady, I want to place an order.
 
@@ -67,16 +71,13 @@ ${formData.firstName} ${formData.lastName}
 Phone: ${formData.phone}
 
 Order:
-${orderItems.map(i => `${i.name} (${i.size}) x${i.quantity}`).join(', ')}
-
-Total: ${getCartAmount()}
+${orderItems.map(i => `${i.name} (${i.size}) x${i.quantity}`).join('\n')}
 `
 
     const whatsappNumber = '17869757896' 
     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`
     window.location.href = whatsappUrl
   }
-
   return (
     <div className='flex flex-col justify-between gap-4 pt-5 sm:pt-14 sm:flex-row min-h-[80h] border-t'>
 
@@ -110,7 +111,7 @@ Total: ${getCartAmount()}
       {/* Right side */}
       <div className="mt-8">
         <div className="mt-8 min-w-80">
-          <CartTotal />
+          {/* <CartTotal /> */}
         </div>
 
         <div className="mt-12">
