@@ -1,6 +1,7 @@
 import React from 'react'
 import { assets } from '../assets/frontend_assets/assets'
 import Title from '../components/Title'
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -32,10 +33,13 @@ const Hero = () => {
             <Title text1={'ABOUT'} text2={'US'}/>
             <p className='w-3/4 m-auto text-xs sm:text-sm md:text-base text-gray-600 '>Welcome to Winelady, where passion for exceptional wines meets the joy of discovery. We curate a diverse collection of wines from around the world, bringing you unique flavors, exquisite aromas, and unforgettable experiences</p>
              <p className='py-5'>
-                         <button to='/collection' className='   bg-red-500 text-white px-8 py-3 text-sm active:bg-gray-700 '>
-                                       <p className=''>EXPLORE OUR COLLECTION</p>
-                                       <hr className='w-2/4 border-none h-[1.5px] bg-gray-700 hidden' />
-                                   </button>
+                         <Link 
+  to="/collection" 
+  className="bg-black text-white px-8 py-3 text-sm active:bg-gray-700 inline-block"
+>
+  <p>EXPLORE OUR COLLECTION</p>
+  <hr className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden" />
+</Link>
                     </p>
 
         </div>
