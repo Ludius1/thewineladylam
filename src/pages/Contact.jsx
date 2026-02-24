@@ -16,7 +16,7 @@ const Contact = () => {
                 <p className='font-semibold text-xl'>Our Store</p>
                 {/* <p className='text-gray-500 '> 54709 Williams Station <br /> Miami, USA</p> */}
                 <p className='text-gray-500 '>  Miami, USA</p>
-                <p className='text-gray-500'> Tel: (+1) 786 975 7896 <br /> Email:thewinelady@gmail.com</p>
+                <p className='text-gray-500'> Tel: (+1) 786 975 7896 <br /> Email:thewinelady06@gmail.com</p>
               
             </div>
       </div>
