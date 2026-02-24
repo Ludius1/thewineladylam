@@ -38,7 +38,7 @@ const Hero = () => {
   className="bg-black text-white px-8 py-3 text-sm active:bg-gray-700 inline-block"
 >
   <p>EXPLORE OUR COLLECTION</p>
-  <hr className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden" />
+  <hr className="w-2/4 border-none h-[1.5px] text-red-500 hidden" />
 </Link>
                     </p>
 
