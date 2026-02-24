@@ -35,7 +35,7 @@ const Hero = () => {
              <p className='py-5'>
                          <Link 
   to="/collection" 
-  className="bg-black text-white px-8 py-3 text-sm active:bg-gray-700 inline-block"
+  className="bg-red-500 text-white px-8 py-3 text-sm active:bg-gray-700 inline-block"
 >
   <p>EXPLORE OUR COLLECTION</p>
   <hr className="w-2/4 border-none h-[1.5px] bg-red-500 hidden" />
