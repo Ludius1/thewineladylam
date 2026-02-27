@@ -26,8 +26,8 @@ const Footer = () => {
             <div className="">
                 <p className="text-xl fot-medium mb-5 ">GET IN TOUCH</p>
                 <ul className="flexx">
-                    <li>(+1) 786 975 7896</li>
-                    <li>thewinelady@gmail.com</li>
+                    <li>TEL (+1) 786 975 7896</li>
+                    <li>thewinelady06@gmail.com</li>
                 </ul>
             </div>
          </div> 
