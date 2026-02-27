@@ -211,7 +211,7 @@ export const products = [
     {
         _id: "cider1",
         name: "Cider Normandie Rose « Fournier »",
-        description: "Rosé cider, fresh and fruity with floral notes, fine bubbles, and a balance of acidity and light sweetness.",
+        description: "A visually stunning rosé cider from the heart of Normandy. It offers a delicate bouquet of red forest fruits and rose petals. The palate is light and refreshing with fine, persistent bubbles and a perfect harmony between tangy acidity and a whisper of sweetness. Ideal as an aperitif or paired with fruit tarts.",
         price: 1500,
         image: [p_img1],
         category: "France",
@@ -226,7 +226,7 @@ export const products = [
     {
         _id: "cider2",
         name: "Cider Normandie Doux « Fournier »",
-        description: "Sweet cider PGI Normandie is a fruity, sparkling, and sweet cider made from 100% pure juice with fresh apple flavors.",
+        description: "Crafted under the prestigious PGI Normandie designation, this 'Doux' (sweet) cider is made from 100% pure apple juice. It radiates intense aromas of ripe yellow apples and honey. Its velvety texture and natural residual sugar make it a joyful companion for crepes, desserts, or spicy Asian cuisine.",
         price: 1400,
         image: [p_img2],
         category: "France",
@@ -241,7 +241,7 @@ export const products = [
     {
         _id: "cider3",
         name: "Cider Kupela Natural Basque Semi Dry",
-        description: "The Kupela's sparkling version revisits the modern cider standards. A light cider, very fine and elegant in the mouth with a fresh and acidulous feeling.",
+        description: "Experience the vibrant spirit of the Basque Country. This semi-dry cider is a modern interpretation of ancient traditions, offering an elegant structure with a balanced, acidulous profile. It is crisp, clean, and incredibly refreshing, making it the ultimate palate cleanser.",
         price: 1600,
         image: [p_img3],
         category: "Spain",
@@ -256,7 +256,7 @@ export const products = [
     {
         _id: "cider4",
         name: "Cider Brut Kupela Natural Basque",
-        description: "Inspired by Anglo-Saxon ciders yet rooted in Basque tradition, this raw cider blends fresh Golden Show, Fuji, and Pink Lady apples for a fruity, balanced taste. Naturally fermented and bottled in Lekunberri.",
+        description: "A 'raw' (Brut) cider that bridges the gap between Basque heritage and refined craft techniques. Using a blend of Golden, Fuji, and Pink Lady apples, it delivers a sophisticated dry finish with a complex fruit-forward mid-palate. Naturally fermented in Lekunberri for a truly authentic taste.",
         price: 1700,
         image: [p_img4],
         category: "Spain",
@@ -271,7 +271,7 @@ export const products = [
     {
         _id: "champ1",
         name: "Champagne La Diva Brut 100% Pinot Noir",
-        description: "100% Pinot Noir (only 4% of champagne are mono-pinot noir).",
+        description: "A rare gem in the world of sparkling wine, this 'Blanc de Noirs' is crafted exclusively from Pinot Noir—a feat achieved by only 4% of Champagne producers. It boasts a powerful structure with notes of red currants and toasted brioche, offering a luxurious and full-bodied experience.",
         price: 22000,
         image: [p_img5],
         category: "France",
@@ -285,7 +285,7 @@ export const products = [
     {
         _id: "champ2",
         name: "Champagne Brut Paul Dangin Cuvee Carte D’or",
-        description: "The fine and elegant nose exalts notes of cookies and pears. The palate is balanced and creamy. It begins with a straightforward attack, then comes a gourmet side that ends with notes of almond.",
+        description: "A sophisticated Champagne that opens with an elegant nose of buttery biscuits and ripe pears. The mouthfeel is remarkably creamy, starting with a bold, straightforward attack and evolving into a gourmet finish of sweet almonds and white blossoms. Perfect for grand celebrations.",
         price: 24000,
         image: [p_img6],
         category: "France",
@@ -299,7 +299,7 @@ export const products = [
     {
         _id: "champ3",
         name: "Champagne Alain Navarre Prestige",
-        description: "A family-run estate in Passy-sur-Marne. Four generations have upheld tradition, producing Champagne with all three grape varieties and a focus on sustainability.",
+        description: "Hailing from a family-run estate in Passy-sur-Marne, this Prestige cuvée represents four generations of mastery. A classic blend of all three Champagne grape varieties, it emphasizes sustainable viticulture. It is well-rounded, balanced, and mirrors the rich terroir of the Marne Valley.",
         price: 26000,
         image: [p_img7],
         category: "France",
@@ -313,7 +313,7 @@ export const products = [
     {
         _id: "champ4",
         name: "Champagne Brut R De Ruinart Blanc",
-        description: "A harmonious champagne produced from a blend of Pinot Noir, Meunier, and Chardonnay from multiple crus.",
+        description: "The primary expression of the Ruinart taste. This harmonious blend of Pinot Noir, Meunier, and Chardonnay is sourced from various crus. It features a brilliant yellow color with gold reflections and a nose that combines fresh fruit (pear, dry fruits) with white flowers and spicy touches.",
         price: 28000,
         image: [p_img8],
         category: "France",
@@ -327,7 +327,7 @@ export const products = [
     {
         _id: "rose1",
         name: "Champagne Rose Chardonnay & Pinot Noir « Philippe Gonet »",
-        description: "A blended Rosé combining the freshness of Chardonnay with the structure of Pinot Noir.",
+        description: "A masterclass in balance, this Rosé blends the zesty freshness of Chardonnay with the architectural strength of Pinot Noir. It presents a beautiful salmon hue and leads with aromas of wild strawberries and citrus zest. A versatile bottle that shines with seafood or poultry.",
         price: 20000,
         image: [p_img9],
         category: "France",
@@ -341,7 +341,7 @@ export const products = [
     {
         _id: "rose2",
         name: "Champagne Rose California OPR Rose “Trentadue Winery”",
-        description: "A proprietary blend of red and white grapes handcrafted for premium quality.",
+        description: "A premium New World take on the Rosé style. Handcrafted at the Trentadue Winery, this proprietary blend of red and white grapes delivers a burst of ripe melon and red cherry. It is bright, lively, and offers a sophisticated California twist on traditional sparkling Rosé.",
         price: 21000,
         image: [p_img10],
         category: "USA",
@@ -355,7 +355,7 @@ export const products = [
     {
         _id: "rose3",
         name: "Sparkling Rose “Flines Valley”",
-        description: "A delicate and fresh sparkling wine made from Grolleau Gris and Grolleau Noir.",
+        description: "A delicate and airy sparkling wine from the Loire Valley. Utilizing Grolleau Gris and Grolleau Noir, it features a very fine bead and notes of summer berries. Its crisp acidity and light body make it an effortless choice for outdoor gatherings and brunches.",
         price: 19000,
         image: [p_img11],
         category: "France",
@@ -369,7 +369,7 @@ export const products = [
     {
         _id: "spark1",
         name: "Sparkling Veuve Parisot Brut",
-        description: "Pale and crisp with yeast and herb flavors, creamy mousse, and a light off-dry finish.",
+        description: "A crowd-pleasing Blanc de Blancs that is pale and crisp. It features subtle yeast and herbal undertones with a creamy mousse that coats the palate. The finish is slightly off-dry, providing a smooth, approachable taste that pairs wonderfully with appetizers.",
         price: 23000,
         image: [p_img12],
         category: "France",
@@ -383,7 +383,7 @@ export const products = [
     {
         _id: "wine001",
         name: "Rose Pamplemousse (Grapefruit) Stelvin®",
-        description: "Fresh and slightly sweet rosé drink with pleasant natural grapefruit notes.",
+        description: "The ultimate summer refreshment. This Rosé is naturally infused with the bright, citrusy essence of pink grapefruit. It is low in alcohol, slightly sweet, and incredibly aromatic. Equipped with a Stelvin screwcap for easy opening at picnics or poolside.",
         price: 0,
         image: [p_img13],
         category: "France",
@@ -391,11 +391,11 @@ export const products = [
         sizes: ["75cl"],
         date: 1716634345448,
         bestseller: false
-      },
-      {
+    },
+    {
         _id: "wine002",
         name: "Soleillades IGP Mediterranee Rose",
-        description: "Light cherry pink rosé with aromas of strawberries and raspberries, supple and fresh on the palate.",
+        description: "A classic Mediterranean Rosé with a beautiful light cherry-pink dress. It captures the essence of the South of France with vibrant strawberry and raspberry aromas. The palate is supple, fresh, and well-balanced, making it a staple for grilled fish and salads.",
         price: 0,
         image: [p_img14],
         category: "France",
@@ -403,11 +403,11 @@ export const products = [
         sizes: ["75cl"],
         date: 1716634345448,
         bestseller: false
-      },
-      {
+    },
+    {
         _id: "wine003",
         name: "Sancerre Rose Domaine Les Beaux Regards Michel Girault",
-        description: "Very pale rosé with explosive flavor, strong acidity, flint and wet stone minerality.",
+        description: "A world-class Rosé made from Pinot Noir. This Sancerre is explosive on the nose with red berry notes, underpinned by a distinct flint and wet stone minerality. Its sharp acidity and clean finish reflect the chalky soils of the Domaine, offering a truly 'terroir' driven experience.",
         price: 0,
         image: [p_img15],
         category: "France",
@@ -415,11 +415,11 @@ export const products = [
         sizes: ["75cl"],
         date: 1716634345448,
         bestseller: true
-      },
-      {
+    },
+    {
         _id: "wine004",
         name: "Chateau St Croix Cotes de Provence Prestige Rose",
-        description: "Award winning rosé with peach color, red fruit aromas, finesse and long fresh finish.",
+        description: "An award-winning Prestige Rosé characterized by its elegant pale peach hue. It offers a complex aromatic profile of white peach and red currants. The mouthfeel is characterized by extreme finesse and a long, salty-fresh finish typical of the finest Provence wines.",
         price: 0,
         image: [p_img16],
         category: "France",
@@ -427,11 +427,11 @@ export const products = [
         sizes: ["75cl"],
         date: 1716634345448,
         bestseller: true
-      },
-      {
+    },
+    {
         _id: "wine005",
         name: "Rose d’Anjou AOC Domaine de Flines",
-        description: "Fruity semi dry rosé with strawberry flavors, fresh and joyful mouthfeel.",
+        description: "A traditional Loire Valley favorite. This semi-dry Rosé is soft and joyful, bursting with sweet strawberry and pomegranate flavors. Its gentle sweetness is perfectly offset by a light zip of acidity, making it a fantastic pairing for spicy dishes or fruit salads.",
         price: 0,
         image: [p_img17],
         category: "France",
@@ -439,11 +439,11 @@ export const products = [
         sizes: ["75cl"],
         date: 1716634345448,
         bestseller: false
-      },
-      {
+    },
+    {
         _id: "wine006",
         name: "Rose Garcia Méditerranée Organic",
-        description: "Light and thirst quenching organic rosé, fruity and refreshing with Syrah and Grenache blend.",
+        description: "A certified organic Rosé that is as clean as it is delicious. A blend of Syrah and Grenache, it offers a thirst-quenching profile with notes of white flowers and small red fruits. Refreshing, sustainable, and perfect for the eco-conscious wine lover.",
         price: 0,
         image: [p_img18],
         category: "France",
@@ -451,11 +451,11 @@ export const products = [
         sizes: ["75cl"],
         date: 1716634345448,
         bestseller: false
-      },
-      {
+    },
+    {
         _id: "wine007",
         name: "Rose IGP Var Chateau St Croix",
-        description: "Pale lychee pink rosé with strawberry and blackcurrant aromas and candy like freshness.",
+        description: "This pale lychee-pink Rosé is a delight for the senses. It features an inviting nose of fresh strawberries and blackcurrants with a unique 'candy-like' freshness on the palate. Light-bodied and easy-drinking, it is the quintessential summer sundowner.",
         price: 0,
         image: [p_img19],
         category: "France",
@@ -463,11 +463,11 @@ export const products = [
         sizes: ["75cl"],
         date: 1716634345448,
         bestseller: false
-      },
-      {
+    },
+    {
         _id: "wine008",
         name: "Coteaux D’Aix en Provence White La Source de Vignelaure Organic",
-        description: "Rich white wine blend of Vermentino, Sauvignon and Semillon with depth and freshness.",
+        description: "An exceptional organic white blend of Vermentino, Sauvignon Blanc, and Semillon. This wine offers a wonderful tension between richness and freshness, featuring notes of citrus peel and green apple with a textured, mineral-driven finish.",
         price: 0,
         image: [p_img20],
         category: "France",
@@ -475,11 +475,11 @@ export const products = [
         sizes: ["75cl"],
         date: 1716634345448,
         bestseller: false
-      },
-      {
+    },
+    {
         _id: "wine009",
         name: "AOP Cotes de Provence Prestige White Chateau St Croix",
-        description: "Pale gold white wine with citrus aromas, saline minerality and vibrant acidity.",
+        description: "Elegance in a bottle. This pale gold white wine is defined by its vibrant citrus aromas and a distinct saline minerality. Its racy acidity makes it an incredible companion for oysters, fresh seafood, or Mediterranean appetizers.",
         price: 0,
         image: [p_img21],
         category: "France",
@@ -487,11 +487,11 @@ export const products = [
         sizes: ["75cl"],
         date: 1716634345448,
         bestseller: false
-      },
-      {
+    },
+    {
         _id: "wine010",
         name: "IGP Mediterranee White Chateau Vignelaure Organic",
-        description: "Complex and floral white wine with vanilla, peach, honey and long elegant finish.",
+        description: "A complex and floral organic white that has been crafted for the discerning palate. Expect layers of honeysuckle, ripe peach, and a touch of vanilla. It is elegant and long on the finish, making it suitable for white meats and rich pasta dishes.",
         price: 0,
         image: [p_img22],
         category: "France",
@@ -499,11 +499,11 @@ export const products = [
         sizes: ["75cl"],
         date: 1716634345448,
         bestseller: false
-      },
-      {
+    },
+    {
         _id: "wine011",
         name: "White Malbec Blanc de Noirs Paradoxe",
-        description: "Fresh and mineral driven white Malbec with nectarine, peach and lemon finish.",
+        description: "A true 'paradox'—a white wine made from the red Malbec grape. This Blanc de Noirs is fresh and mineral-driven, offering unexpected notes of nectarine, white peach, and a sharp lemon-zest finish. A fascinating conversation starter for any dinner party.",
         price: 0,
         image: [p_img23],
         category: "France",
@@ -511,11 +511,11 @@ export const products = [
         sizes: ["75cl"],
         date: 1716634345448,
         bestseller: false
-      },
-      {
+    },
+    {
         _id: "wine012",
         name: "Coteaux D’Aix en Provence Red La Source de Vignelaure Organic",
-        description: "Syrah and Cabernet Sauvignon blend with fruity nose, freshness and balanced finish.",
+        description: "A harmonious organic blend of Syrah and Cabernet Sauvignon. It leads with a very fruity nose of blackberries and plums, followed by a palate that maintains a surprising freshness and soft, integrated tannins. A perfect 'everyday' red for fans of French style.",
         price: 0,
         image: [p_img24],
         category: "France",
@@ -523,11 +523,11 @@ export const products = [
         sizes: ["75cl"],
         date: 1716634345448,
         bestseller: false
-      },
-      {
+    },
+    {
         _id: "wine013",
         name: "Malbec Chateau du Port Tradition",
-        description: "Dark ruby Malbec with violet aromas, soft tannins and mentholated fruit notes.",
+        description: "A dark ruby Malbec that showcases the classic floral side of the variety with intense violet aromas. The palate is soft and approachable, featuring juicy dark fruit notes and a subtle mentholated finish that keeps the wine feeling lifted and bright.",
         price: 0,
         image: [p_img25],
         category: "France",
@@ -535,11 +535,11 @@ export const products = [
         sizes: ["75cl"],
         date: 1716634345448,
         bestseller: false
-      },
-      {
+    },
+    {
         _id: "wine014",
         name: "Malbec Chateau du Port Grande Reserve",
-        description: "Structured Malbec with black cherry, leather, chocolate notes and medium body.",
+        description: "The big brother to the Tradition, this Grande Reserve is more structured and muscular. It offers deep notes of black cherry, leather, and dark chocolate. With its medium body and velvety tannins, it is the perfect match for steak or hearty stews.",
         price: 0,
         image: [p_img26],
         category: "France",
@@ -547,11 +547,11 @@ export const products = [
         sizes: ["75cl"],
         date: 1716634345448,
         bestseller: false
-      },
-      {
+    },
+    {
         _id: "wine015",
         name: "Chateauneuf du Pape Tour D'Ambre Organic",
-        description: "Medium to full bodied wine with kirsch, herbs, lavender and silky texture.",
+        description: "A stunning organic expression of this legendary appellation. Medium to full-bodied, it delivers classic notes of kirsch, dried herbs (garrigue), and lavender. The texture is incredibly silky, leading into a long, warming finish. A true collector's wine.",
         price: 0,
         image: [p_img27],
         category: "France",
@@ -559,11 +559,11 @@ export const products = [
         sizes: ["75cl"],
         date: 1716634345448,
         bestseller: true
-      },
-      {
+    },
+    {
         _id: "wine016",
         name: "Chateauneuf du Pape Matteo Organic",
-        description: "Grenache led blend with cherry, boysenberry, white pepper and long tannic finish.",
+        description: "A Grenache-led blend that is vibrant and bold. It features a concentrated profile of cherries and boysenberries, accented by a distinctive white pepper spice. The finish is long and tannic, suggesting great aging potential or a need for decanting before serving with lamb.",
         price: 0,
         image: [p_img28],
         category: "France",
@@ -571,11 +571,11 @@ export const products = [
         sizes: ["75cl"],
         date: 1716634345448,
         bestseller: false
-      },
-      {
+    },
+    {
         _id: "wine017",
         name: "Chateauneuf du Pape Roque Colombe Red",
-        description: "Complex and smoky red wine with black fruits, licorice, tobacco and vanilla.",
+        description: "A complex, smoky, and deeply rewarding red wine. It offers an intricate tapestry of black fruits, licorice, tobacco, and sweet vanilla. Its robust structure and layered flavors make it a quintessential choice for special occasions and fine dining.",
         price: 0,
         image: [p_img29],
         category: "France",
@@ -583,167 +583,167 @@ export const products = [
         sizes: ["75cl"],
         date: 1716634345448,
         bestseller: true
-      },
-      {
-    _id: "wine018",
-    name: "Glaciovinium Dessert Wine Lakewood Vineyards",
-    description: "Tropical fruit flavors followed by lingering tangerine and almond notes.",
-    price: 0,
-    image: [p_img30],
-    category: "USA",
-    subCategory: "Dessert Wine",
-    sizes: ["75cl"],
-    date: 1716634345448,
-    bestseller: false
-  },
-  {
-    _id: "wine019",
-    name: "Valvin Muscat Sweet Lakewood Vineyards",
-    description: "Juicy aromas of white peach, pear and melon with a luscious fruity palate.",
-    price: 0,
-    image: [p_img31],
-    category: "USA",
-    subCategory: "White Wine",
-    sizes: ["75cl"],
-    date: 1716634345448,
-    bestseller: false
-  },
-  {
-    _id: "wine020",
-    name: "Riesling Semi Dry Paumanok Vineyards",
-    description: "Fresh peach, apricot, nectarine and apple flavors finishing crisp and dry.",
-    price: 0,
-    image: [p_img32],
-    category: "USA",
-    subCategory: "White Wine",
-    sizes: ["75cl"],
-    date: 1716634345448,
-    bestseller: true
-  },
-  {
-    _id: "wine021",
-    name: "Riesling Dry Paumanok Vineyards",
-    description: "Bright fruit cocktail of peach and apple with clean acidity and dry finish.",
-    price: 0,
-    image: [p_img33],
-    category: "USA",
-    subCategory: "White Wine",
-    sizes: ["75cl"],
-    date: 1716634345448,
-    bestseller: false
-  },
-  {
-    _id: "wine022",
-    name: "Chardonnay Palmer Vineyards",
-    description: "Light and crisp Chardonnay with apple, lemon, pineapple and stone notes.",
-    price: 0,
-    image: [p_img34],
-    category: "USA",
-    subCategory: "White Wine",
-    sizes: ["75cl"],
-    date: 1716634345448,
-    bestseller: false
-  },
-  {
-    _id: "wine023",
-    name: "Chenin Blanc Paumanok Vineyards",
-    description: "Fresh and racy Chenin Blanc with grapefruit, pineapple, melon and guava notes.",
-    price: 0,
-    image: [p_img35],
-    category: "USA",
-    subCategory: "White Wine",
-    sizes: ["75cl"],
-    date: 1716634345448,
-    bestseller: false
-  },
-  {
-    _id: "wine024",
-    name: "Merlot Paumanok Vineyards",
-    description: "Ripe cassis, dark cherry and blueberry accented with mint and herbal tones.",
-    price: 0,
-    image: [p_img36],
-    category: "USA",
-    subCategory: "Red Wine",
-    sizes: ["75cl"],
-    date: 1716634345448,
-    bestseller: false
-  },
-  {
-    _id: "wine025",
-    name: "Assemblage Paumanok Vineyards",
-    description: "Complex red blend aged in French oak with structure, balance and elegance.",
-    price: 0,
-    image: [p_img37],
-    category: "USA",
-    subCategory: "Red Wine",
-    sizes: ["75cl"],
-    date: 1716634345448,
-    bestseller: true
-  },
-  {
-    _id: "wine026",
-    name: "Petit Verdot Paumanok Vineyards",
-    description: "Fresh and light red wine with fig, herbs and citrus character.",
-    price: 0,
-    image: [p_img38],
-    category: "USA",
-    subCategory: "Red Wine",
-    sizes: ["75cl"],
-    date: 1716634345448,
-    bestseller: false
-  },
-  {
-    _id: "wine027",
-    name: "Chardonnay Barrel Fermented Paumanok Vineyards",
-    description: "Medium bodied Chardonnay with rich melon, apple and balanced finish.",
-    price: 0,
-    image: [p_img39],
-    category: "USA",
-    subCategory: "White Wine",
-    sizes: ["75cl"],
-    date: 1716634345448,
-    bestseller: false
-  },
-  {
-    _id: "wine028",
-    name: "California Champagne Trentadue XXXII",
-    description: "Delicate sparkling wine with fruity aromas and smooth crisp finish.",
-    price: 0,
-    image: [p_img40],
-    category: "USA",
-    subCategory: "Sparkling Wine",
-    sizes: ["75cl"],
-    date: 1716634345448,
-    bestseller: true
-  },
-  {
-    _id: "wine029",
-    name: "California Champagne Rose Trentadue OPR",
-    description: "Vibrant sparkling rosé with strawberry and citrus zest notes.",
-    price: 0,
-    image: [p_img41],
-    category: "USA",
-    subCategory: "Sparkling Wine",
-    sizes: ["75cl"],
-    date: 1716634345448,
-    bestseller: false
-  },
-  {
-    _id: "wine030",
-    name: "OPR Sauvignon Blanc Trentadue Winery",
-    description: "Fresh and light Sauvignon Blanc with fig, herbs and citrus aromas.",
-    price: 0,
-    image: [p_img42],
-    category: "USA",
-    subCategory: "White Wine",
-    sizes: ["75cl"],
-    date: 1716634345448,
-    bestseller: false
-  },
+    },
+    {
+        _id: "wine018",
+        name: "Glaciovinium Dessert Wine Lakewood Vineyards",
+        description: "A luscious dessert wine that captures the intensity of tropical fruits. Expect a wave of mango and pineapple on the entry, followed by lingering notes of tangerine zest and a nutty almond finish. It is the perfect liquid dessert or companion to blue cheese.",
+        price: 0,
+        image: [p_img30],
+        category: "USA",
+        subCategory: "Dessert Wine",
+        sizes: ["75cl"],
+        date: 1716634345448,
+        bestseller: false
+    },
+    {
+        _id: "wine019",
+        name: "Valvin Muscat Sweet Lakewood Vineyards",
+        description: "A celebration of the aromatic Muscat grape. This wine jumps out of the glass with juicy aromas of white peach, pear, and melon. The palate is luscious and sweet, but balanced by a brightness that makes every sip feel fresh and fruity.",
+        price: 0,
+        image: [p_img31],
+        category: "USA",
+        subCategory: "White Wine",
+        sizes: ["75cl"],
+        date: 1716634345448,
+        bestseller: false
+    },
+    {
+        _id: "wine020",
+        name: "Riesling Semi Dry Paumanok Vineyards",
+        description: "A masterfully balanced Semi-Dry Riesling from Long Island. It balances a natural sweetness with a spine of crisp acidity, featuring flavors of fresh peach, apricot, and green apple. It finishes remarkably clean and dry, making it a favorite for spicy food lovers.",
+        price: 0,
+        image: [p_img32],
+        category: "USA",
+        subCategory: "White Wine",
+        sizes: ["75cl"],
+        date: 1716634345448,
+        bestseller: true
+    },
+    {
+        _id: "wine021",
+        name: "Riesling Dry Paumanok Vineyards",
+        description: "For those who prefer their Riesling without the sugar. This Dry Riesling is a 'fruit cocktail' of peach and apple, delivered with electric acidity and a bone-dry finish. It is lean, focused, and incredibly refreshing on a warm day.",
+        price: 0,
+        image: [p_img33],
+        category: "USA",
+        subCategory: "White Wine",
+        sizes: ["75cl"],
+        date: 1716634345448,
+        bestseller: false
+    },
+    {
+        _id: "wine022",
+        name: "Chardonnay Palmer Vineyards",
+        description: "An un-oaked style of Chardonnay that emphasizes purity and fruit. It is light and crisp, showcasing a medley of lemon, pineapple, and green apple with a subtle stony minerality. A modern and versatile take on a classic grape.",
+        price: 0,
+        image: [p_img34],
+        category: "USA",
+        subCategory: "White Wine",
+        sizes: ["75cl"],
+        date: 1716634345448,
+        bestseller: false
+    },
+    {
+        _id: "wine023",
+        name: "Chenin Blanc Paumanok Vineyards",
+        description: "A racy and energetic Chenin Blanc that stands out for its aromatic intensity. Notes of grapefruit and pineapple are met with exotic touches of guava and melon. It is zesty and bright, perfect for sushi or light summer pastas.",
+        price: 0,
+        image: [p_img35],
+        category: "USA",
+        subCategory: "White Wine",
+        sizes: ["75cl"],
+        date: 1716634345448,
+        bestseller: false
+    },
+    {
+        _id: "wine024",
+        name: "Merlot Paumanok Vineyards",
+        description: "A polished and elegant Merlot that avoids being heavy. It features ripe cassis and dark cherry fruit, beautifully accented with cool-climate notes of mint and dried herbs. Medium-bodied with soft tannins, it is a quintessential dinner wine.",
+        price: 0,
+        image: [p_img36],
+        category: "USA",
+        subCategory: "Red Wine",
+        sizes: ["75cl"],
+        date: 1716634345448,
+        bestseller: false
+    },
+    {
+        _id: "wine025",
+        name: "Assemblage Paumanok Vineyards",
+        description: "The flagship red blend from Paumanok. Aged meticulously in French oak, this 'Assemblage' offers a sophisticated structure with a balance of dark fruits, spice, and earth. It is elegant, balanced, and built to impress at the dining table.",
+        price: 0,
+        image: [p_img37],
+        category: "USA",
+        subCategory: "Red Wine",
+        sizes: ["75cl"],
+        date: 1716634345448,
+        bestseller: true
+    },
+    {
+        _id: "wine026",
+        name: "Petit Verdot Paumanok Vineyards",
+        description: "Usually a blending grape, here Petit Verdot takes center stage. This wine is surprisingly fresh and light for the variety, offering unique flavors of fig and fresh herbs with a bright citrus-edged character. A unique and intriguing red wine.",
+        price: 0,
+        image: [p_img38],
+        category: "USA",
+        subCategory: "Red Wine",
+        sizes: ["75cl"],
+        date: 1716634345448,
+        bestseller: false
+    },
+    {
+        _id: "wine027",
+        name: "Chardonnay Barrel Fermented Paumanok Vineyards",
+        description: "A richer, medium-bodied Chardonnay for those who enjoy the influence of oak. The barrel fermentation adds a creamy texture and subtle toasted notes to the core of ripe melon and apple. It is balanced, sophisticated, and has a lingering, buttery finish.",
+        price: 0,
+        image: [p_img39],
+        category: "USA",
+        subCategory: "White Wine",
+        sizes: ["75cl"],
+        date: 1716634345448,
+        bestseller: false
+    },
+    {
+        _id: "wine028",
+        name: "California Champagne Trentadue XXXII",
+        description: "A festive and delicate sparkling wine from California. It offers a bright bouquet of citrus and white orchard fruits. The palate is smooth with a crisp, clean finish that makes it an excellent choice for mimosas or as a celebratory toast.",
+        price: 0,
+        image: [p_img40],
+        category: "USA",
+        subCategory: "Sparkling Wine",
+        sizes: ["75cl"],
+        date: 1716634345448,
+        bestseller: true
+    },
+    {
+        _id: "wine029",
+        name: "California Champagne Rose Trentadue OPR",
+        description: "A vibrant and energetic sparkling Rosé. It is packed with notes of sun-ripened strawberries and a touch of citrus zest. Its lively bubbles and cheerful character make it a perfect addition to any celebration or brunch.",
+        price: 0,
+        image: [p_img41],
+        category: "USA",
+        subCategory: "Sparkling Wine",
+        sizes: ["75cl"],
+        date: 1716634345448,
+        bestseller: false
+    },
+    {
+        _id: "wine030",
+        name: "OPR Sauvignon Blanc Trentadue Winery",
+        description: "A classic cool-climate style Sauvignon Blanc. It is light-bodied and exceptionally fresh, leading with aromas of fresh-cut grass, fig, and citrus. Its racy acidity makes it a fantastic partner for goat cheese, salads, or light seafood dishes.",
+        price: 0,
+        image: [p_img42],
+        category: "USA",
+        subCategory: "White Wine",
+        sizes: ["75cl"],
+        date: 1716634345448,
+        bestseller: false
+    },
   {
     _id: "wine031",
     name: "OPR Red Blend Trentadue Winery",
-    description: "Juicy red blend with black cherry, blueberry, vanilla and cocoa notes.",
+    description: "A crowd-pleasing, juicy red blend that prioritizes fruit-forward enjoyment. Rich layers of black cherry and blueberry merge seamlessly with subtle notes of warm vanilla and dark cocoa. It is velvety on the palate, making it a perfect match for barbecue or a cozy night in.",
     price: 0,
     image: [p_img43],
     category: "USA",
@@ -755,7 +755,7 @@ export const products = [
   {
     _id: "wine032",
     name: "Wine Spots Napa Valley Cabernet Sauvignon",
-    description: "Full bodied Cabernet with black stone fruit, chocolate and French oak.",
+    description: "The quintessential Napa Cabernet experience. This full-bodied wine is a deep dive into black stone fruits, enriched by secondary notes of dark chocolate and high-quality French oak. It possesses the structure and power to stand up to the richest ribeye steak.",
     price: 0,
     image: [p_img44],
     category: "USA",
@@ -767,7 +767,7 @@ export const products = [
   {
     _id: "wine033",
     name: "Wine Spots Cuvee 38 Red Blend",
-    description: "Bordeaux style red blend with dark cherry, cassis and silky tannins.",
+    description: "Inspired by the great chateaus of France, this Bordeaux-style blend offers a sophisticated profile of dark cherry and cassis. Its hallmark is the silky, refined tannins that glide across the palate, leading to a long finish with a hint of graphite and spice.",
     price: 0,
     image: [p_img45],
     category: "USA",
@@ -779,7 +779,7 @@ export const products = [
   {
     _id: "wine034",
     name: "Wine Spots Merlot",
-    description: "Merlot with sweet cherry, plum, vanilla and soft oak influence.",
+    description: "A plush and inviting Merlot that showcases the softer side of Napa. It bursts with sweet cherry and ripe plum, complemented by a delicate touch of vanilla from gentle oak influence. It is round, approachable, and exceptionally well-balanced.",
     price: 0,
     image: [p_img46],
     category: "USA",
@@ -791,7 +791,7 @@ export const products = [
   {
     _id: "wine035",
     name: "Petite Sirah Aratas Napa Valley",
-    description: "Deep and complex Petite Sirah aged in Hungarian oak with long development.",
+    description: "A bold, ink-dark Petite Sirah that is as deep as it is complex. Aged meticulously in Hungarian oak, this wine reveals layers of black fruit and peppercorn that develop beautifully in the glass. It is a powerful, persistent wine with legendary aging potential.",
     price: 0,
     image: [p_img47],
     category: "USA",
@@ -803,7 +803,7 @@ export const products = [
   {
     _id: "wine036",
     name: "Cabernet Sauvignon Strala Vineyards Napa Valley",
-    description: "Rich Cabernet with black cherry, dark chocolate, vanilla and silky tannins.",
+    description: "A luxury Cabernet Sauvignon that defines the Strala style. It offers a decadent aromatic profile of black cherry and dark chocolate, accented by toasted vanilla bean. The tannins are silky and integrated, creating a seamless, polished mouthfeel.",
     price: 0,
     image: [p_img48],
     category: "USA",
@@ -815,7 +815,7 @@ export const products = [
   {
     _id: "wine037",
     name: "Proprietary Red Blend Strala Vineyards Napa Valley",
-    description: "Elegant red blend with dried berries, maple spice and round tannins.",
+    description: "An elegant, artisanal blend that highlights the unique terroir of Strala’s vineyards. It features a concentrated core of dried forest berries and warm maple spice. The tannins are round and supple, providing a sophisticated structure without being overwhelming.",
     price: 0,
     image: [p_img49],
     category: "USA",
@@ -827,7 +827,7 @@ export const products = [
   {
     _id: "wine038",
     name: "Chardonnay Strala Vineyards Napa Valley",
-    description: "Balanced Chardonnay with honeysuckle, lemon confit, creme brulee and oak.",
+    description: "A masterfully balanced Chardonnay that leans into luxury. It opens with fragrant honeysuckle and lemon confit, moving into a rich mid-palate of creme brulee. A judicious use of oak provides a sturdy frame for its opulent fruit character.",
     price: 0,
     image: [p_img50],
     category: "USA",
@@ -839,7 +839,7 @@ export const products = [
   {
     _id: "wine039",
     name: "Wine Spots Cuvee 38 Red Blend Gold Medal",
-    description: "Structured Bordeaux style Napa red with dark fruit and floral finesse.",
+    description: "This Gold Medal-winning Napa red is a study in power and finesse. A structured Bordeaux-style blend, it offers dark berry fruit complexity interwoven with delicate floral notes. It is a balanced, high-achieving wine that commands attention.",
     price: 0,
     image: [p_img51],
     category: "USA",
@@ -851,7 +851,7 @@ export const products = [
   {
     _id: "wine040",
     name: "Husch Chardonnay Mendocino",
-    description: "Organically farmed Chardonnay with pear, stone fruit, Meyer lemon and gentle oak.",
+    description: "From Mendocino’s oldest winery, this organically farmed Chardonnay is bright and pure. It features a crisp profile of pear and stone fruit, lifted by Meyer lemon zest. A gentle oak touch adds just enough weight to create a satisfying, long finish.",
     price: 0,
     image: [p_img52],
     category: "USA",
@@ -863,7 +863,7 @@ export const products = [
   {
     _id: "wine041",
     name: "Husch Sauvignon Blanc Mendocino",
-    description: "Lively and fresh Sauvignon Blanc with guava, lemon zest and gooseberry aromas.",
+    description: "A lively and energetic Sauvignon Blanc that captures the cool Mendocino breeze. It delivers a punchy aromatic profile of guava, lemon zest, and gooseberry. It is incredibly fresh with a racy acidity that makes it a world-class palate cleanser.",
     price: 0,
     image: [p_img53],
     category: "USA",
@@ -875,7 +875,7 @@ export const products = [
   {
     _id: "wine042",
     name: "Husch Pinot Noir Mendocino",
-    description: "Elegant Pinot Noir with cherry, red berries, floral spice and earthy depth.",
+    description: "An elegant, high-altitude Pinot Noir. It showcases the delicate side of the grape with vibrant cherry and red berry flavors, layered with floral spices and a grounding earthy depth. A sophisticated choice for mushroom-based dishes or salmon.",
     price: 0,
     image: [p_img54],
     category: "USA",
@@ -887,7 +887,7 @@ export const products = [
   {
     _id: "wine043",
     name: "Husch Cabernet Sauvignon Mendocino",
-    description: "Structured Cabernet with red cherry, currants, graphite and toasted oak.",
+    description: "A structured and classically styled Cabernet. It moves away from heavy extraction to focus on purity, offering red cherry, currants, and a distinct mineral note of graphite. Toasted oak provides a refined, savory finish.",
     price: 0,
     image: [p_img55],
     category: "USA",
@@ -899,7 +899,7 @@ export const products = [
   {
     _id: "wine044",
     name: "Miro Cellars Cuvee Sasha Blend",
-    description: "Grenache and Syrah blend with jammy berries, plum and dried rose petals.",
+    description: "A Rhône-inspired blend of Grenache and Syrah that is simply irresistible. It is packed with jammy forest berries, ripe plum, and an elegant floral lift of dried rose petals. It is juicy, expressive, and incredibly versatile with food.",
     price: 0,
     image: [p_img56],
     category: "USA",
@@ -911,7 +911,7 @@ export const products = [
   {
     _id: "wine045",
     name: "Wine Spots Cabernet Sauvignon Alexander Valley",
-    description: "Gold medal Cabernet with black stone fruit, chocolate and ripe tannins.",
+    description: "A Gold Medal-winning Cabernet that highlights the warm Alexander Valley terroir. Rich black stone fruits and dark chocolate dominate the palate, supported by exceptionally ripe, velvety tannins that provide a luxurious mouthfeel.",
     price: 0,
     image: [p_img57],
     category: "USA",
@@ -923,7 +923,7 @@ export const products = [
   {
     _id: "wine046",
     name: "Pinot Noir Strala Vineyards Sonoma",
-    description: "Smooth and dry Pinot Noir with cherry, strawberry and plum notes.",
+    description: "A smooth and dry Pinot Noir that exemplifies the Sonoma Coast style. It leads with a delicate perfume of cherry and strawberry, followed by a light-to-medium body featuring plum notes and a clean, refreshing finish.",
     price: 0,
     image: [p_img58],
     category: "USA",
@@ -935,7 +935,7 @@ export const products = [
   {
     _id: "wine047",
     name: "Miro Cellars Cabernet Sauvignon Hitchcock Vineyard",
-    description: "Deep and concentrated Cabernet with wild berry aromas and firm tannins.",
+    description: "Sourced from the prestigious Hitchcock Vineyard, this Cabernet is deep, concentrated, and serious. It features wild berry aromas and a firm tannic structure that ensures it will age gracefully for years to come.",
     price: 0,
     image: [p_img59],
     category: "USA",
@@ -947,7 +947,7 @@ export const products = [
   {
     _id: "wine048",
     name: "Long Valley Ranch Chardonnay Monterey",
-    description: "Balanced Chardonnay with vanilla, caramel, apple, melon and citrus notes.",
+    description: "A perfectly balanced cool-climate Chardonnay from Monterey. It strikes a harmony between creamy vanilla and caramel notes and the crisp freshness of apple, melon, and citrus. A sophisticated yet approachable white for any occasion.",
     price: 0,
     image: [p_img60],
     category: "USA",
@@ -959,7 +959,7 @@ export const products = [
   {
     _id: "wine049",
     name: "Long Valley Ranch Pinot Noir Monterey",
-    description: "Elegant Pinot Noir with currant, raspberry, cranberry and mocha accents.",
+    description: "An elegant and lithe Pinot Noir with a unique aromatic profile. It features classic red fruit like currant and raspberry, but is elevated by unexpected accents of cranberry and a smooth, mocha-infused finish.",
     price: 0,
     image: [p_img61],
     category: "USA",
@@ -971,7 +971,7 @@ export const products = [
   {
     _id: "wine050",
     name: "Long Valley Ranch Cabernet Sauvignon Monterey",
-    description: "Rich Cabernet with blackberry, plum, tobacco, cedar and herbal notes.",
+    description: "A rich and savory Cabernet Sauvignon. Beyond the core of blackberry and plum, this wine offers complex secondary layers of tobacco, cedar, and dried herbs, reflecting the rugged beauty of the Monterey coastline.",
     price: 0,
     image: [p_img62],
     category: "USA",
@@ -983,7 +983,7 @@ export const products = [
   {
     _id: "wine051",
     name: "James Bryant Hill Chardonnay",
-    description: "Crisp Chardonnay with green apple, citrus, tropical fruit and vanilla.",
+    description: "A crisp and vibrant Chardonnay designed for immediate enjoyment. It offers a refreshing blend of green apple and citrus, with just a hint of tropical fruit and a smooth vanilla kiss on the finish.",
     price: 0,
     image: [p_img63],
     category: "USA",
@@ -995,7 +995,7 @@ export const products = [
   {
     _id: "wine052",
     name: "James Bryant Hill Pinot Noir",
-    description: "Silky Pinot Noir with raspberry, currant, cherry and sweet oak notes.",
+    description: "A silky-smooth Pinot Noir that focuses on bright red fruit. Raspberry and cherry notes take center stage, supported by a subtle sweet oak influence that rounds out the palate without overshadowing the grape's natural elegance.",
     price: 0,
     image: [p_img64],
     category: "USA",
@@ -1007,7 +1007,7 @@ export const products = [
   {
     _id: "wine053",
     name: "James Bryant Hill Zinfandel",
-    description: "Bold Zinfandel with blackberry, cassis, strawberry jam and toasted oak.",
+    description: "A bold and expressive Zinfandel that captures the sun-drenched spirit of California. It is rich with blackberry and cassis, followed by a jammy strawberry mid-palate and a warm, toasted oak finish.",
     price: 0,
     image: [p_img65],
     category: "USA",
@@ -1019,7 +1019,7 @@ export const products = [
   {
     _id: "wine054",
     name: "Zinfandelic Zinfandel Old Vine Sierra Foothills",
-    description: "Full bodied old vine Zinfandel with blackberry, blueberry and spice.",
+    description: "A powerful 'Old Vine' Zinfandel from the historic Sierra Foothills. This full-bodied red is a explosion of blackberry and blueberry fruit, layered with the complex black pepper spice that only ancient vines can produce.",
     price: 0,
     image: [p_img66],
     category: "USA",
@@ -1031,7 +1031,7 @@ export const products = [
   {
     _id: "wine055",
     name: "Chardonnay La Storia Trentadue Winery",
-    description: "Layered Chardonnay with tropical fruit, caramel, toast and lemon meringue.",
+    description: "A layered and indulgent Chardonnay that feels like a special occasion. It combines ripe tropical fruits with the luxurious taste of lemon meringue and toasted caramel, resulting in a rich, creamy, and unforgettable mouthfeel.",
     price: 0,
     image: [p_img67],
     category: "USA",
@@ -1043,7 +1043,7 @@ export const products = [
   {
     _id: "wine056",
     name: "Merlot La Storia Trentadue Winery",
-    description: "Award winning Merlot with dark cherry, plum, cocoa and vanilla spice.",
+    description: "This award-winning Merlot is the definition of 'plush.' It features a decadent core of dark cherry and plum, interwoven with sophisticated notes of cocoa powder and warm vanilla spice. It is a world-class example of the variety.",
     price: 0,
     image: [p_img68],
     category: "USA",
@@ -1055,7 +1055,7 @@ export const products = [
   {
     _id: "wine057",
     name: "Viognier Port Trentadue Winery",
-    description: "Dessert wine with floral aromas, peach, apricot and honeysuckle sweetness.",
+    description: "An exotic dessert wine that breaks the mold. This fortified Viognier offers intense floral aromas and a luscious palate of honeyed peach and apricot. It is sweet, aromatic, and pairs beautifully with fruit-based desserts or creamy cheeses.",
     price: 0,
     image: [p_img69],
     category: "USA",
@@ -1067,7 +1067,7 @@ export const products = [
   {
     _id: "wine058",
     name: "Chocolate Amore Port Styled Merlot",
-    description: "Port styled Merlot infused with natural chocolate essence for rich sweetness.",
+    description: "The ultimate indulgence for chocolate lovers. This Port-styled Merlot is infused with natural chocolate essence, creating a rich, sweet, and decadent drink that tastes like a chocolate-covered cherry in liquid form.",
     price: 0,
     image: [p_img70],
     category: "USA",
@@ -1079,7 +1079,7 @@ export const products = [
   {
     _id: "wine059",
     name: "Aries Malbec Mendoza Bernard Magrez",
-    description: "Spicy Malbec with roasted herbs, black cherry, floral notes and firm tannins.",
+    description: "From the legendary Bernard Magrez, this Mendoza Malbec is spicy and assertive. It features roasted herbs and black cherry, with a firm tannic structure and a delicate floral lift that provides a sophisticated finish.",
     price: 0,
     image: [p_img71],
     category: "Argentina",
@@ -1091,7 +1091,7 @@ export const products = [
   {
     _id: "wine060",
     name: "Cheval des Andes Malbec Cabernet Blend",
-    description: "Elegant and fresh with jasmine, red berries, spice and a long refined finish.",
+    description: "A prestigious collaboration between Cheval Blanc and Terrazas de los Andes. This blend is the pinnacle of elegance, featuring notes of fresh jasmine, red forest berries, and fine spice. It is exceptionally refined with a legendary finish.",
     price: 0,
     image: [p_img72],
     category: "Argentina",
@@ -1103,7 +1103,7 @@ export const products = [
   {
     _id: "wine061",
     name: "Finca Adelma Selection Malbec",
-    description: "Red plum, violet aromas with balanced acidity, structure and persistence.",
+    description: "A boutique Malbec that showcases the high-altitude character of the Uco Valley. It features bright red plum and intoxicating violet aromas, supported by a balanced acidity and a persistent, structural finish.",
     price: 0,
     image: [p_img73],
     category: "Argentina",
@@ -1115,7 +1115,7 @@ export const products = [
   {
     _id: "wine062",
     name: "CalCareo Super Eco Malbec",
-    description: "Fresh red fruit and herbs with lively acidity and easy drinking style.",
+    description: "A fresh and vibrant Malbec made with an 'eco' philosophy. It emphasizes the primary fruit, offering crunchy red berry flavors and fresh herbs with a lively acidity that makes it dangerously easy to drink.",
     price: 0,
     image: [p_img74],
     category: "Argentina",
@@ -1127,7 +1127,7 @@ export const products = [
   {
     _id: "wine063",
     name: "Capitan Malbec",
-    description: "Plum and blackberry aromas with vanilla oak and a velvety persistent finish.",
+    description: "A bold Malbec with a commanding presence. It features classic plum and blackberry aromas, wrapped in a blanket of vanilla oak. The finish is velvety and persistent, making it an ideal companion for grilled meats.",
     price: 0,
     image: [p_img75],
     category: "Argentina",
@@ -1139,7 +1139,7 @@ export const products = [
   {
     _id: "wine064",
     name: "Finca Adelma Gran Malbec Single Vineyard",
-    description: "Plum, raspberry, chocolate and tobacco with soft tannins and long finish.",
+    description: "A serious, single-vineyard Malbec that offers a deep dive into the terroir. Expect layers of raspberry, dark chocolate, and tobacco. Its soft, integrated tannins and extremely long finish mark it as a wine of true distinction.",
     price: 0,
     image: [p_img76],
     category: "Argentina",
@@ -1151,7 +1151,7 @@ export const products = [
   {
     _id: "wine065",
     name: "La Florita Malbec Finca El Peral",
-    description: "Fresh juicy red fruits with sharp tannins and vibrant natural acidity.",
+    description: "A high-energy Malbec that prioritizes freshness. It is bursting with juicy red fruits and sharp, defined tannins, backed by a vibrant natural acidity that keeps the palate refreshed from start to finish.",
     price: 0,
     image: [p_img77],
     category: "Argentina",
@@ -1163,7 +1163,7 @@ export const products = [
   {
     _id: "wine066",
     name: "Barberis Talento Malbec",
-    description: "Red fruits, spice and mocha with ripe black fruit and sweet long finish.",
+    description: "A Malbec with true 'talent.' It blends red fruit and spice with a hint of mocha. The palate is dominated by ripe black fruits and a sweet, long-lasting finish that is incredibly satisfying.",
     price: 0,
     image: [p_img78],
     category: "Argentina",
@@ -1175,7 +1175,7 @@ export const products = [
   {
     _id: "wine067",
     name: "La Junta Momentos Reserve Pinot Noir",
-    description: "Fresh red berries and herbs with smooth tannins and vibrant acidity.",
+    description: "A cool-climate Chilean Pinot Noir that captures the 'moment' of freshness. It features delicate red berries and wild herbs, with smooth, refined tannins and a vibrant acidity that makes it exceptionally food-friendly.",
     price: 0,
     image: [p_img79],
     category: "Chile",
@@ -1187,7 +1187,7 @@ export const products = [
   {
     _id: "wine068",
     name: "La Junta Momentos Reserve Carmenere",
-    description: "Red fruit, white pepper and spice with rounded structure and persistence.",
+    description: "Chile’s signature grape at its best. This Carmenere offers a unique blend of red fruit and a touch of white pepper and spice. It is rounded and persistent, providing a smooth and exotic drinking experience.",
     price: 0,
     image: [p_img80],
     category: "Chile",
@@ -1199,7 +1199,7 @@ export const products = [
   {
     _id: "wine069",
     name: "La Junta Amigo Perro Sauvignon Blanc",
-    description: "Tropical fruit aromas with crisp acidity and refreshing finish.",
+    description: "A friendly and approachable Sauvignon Blanc from Chile. It is loaded with tropical fruit aromas like passion fruit and citrus, finishing with a crisp acidity and a clean, refreshing zing.",
     price: 0,
     image: [p_img81],
     category: "Chile",
@@ -1211,7 +1211,7 @@ export const products = [
   {
     _id: "wine070",
     name: "La Junta Amigo Perro Chardonnay",
-    description: "Pineapple and passion fruit aromas with smooth refreshing palate.",
+    description: "A joyful and fruit-forward Chardonnay. It features enticing aromas of pineapple and passion fruit, leading to a smooth, refreshing palate that focuses on purity of fruit rather than heavy oak influence.",
     price: 0,
     image: [p_img82],
     category: "Chile",
@@ -1223,7 +1223,7 @@ export const products = [
   {
     _id: "wine071",
     name: "La Junta Amigo Perro Cabernet Sauvignon",
-    description: "Ripe berries with toasted coffee notes and friendly tannins.",
+    description: "The perfect companion for a casual meal. This Cabernet Sauvignon offers ripe berry fruit and sophisticated notes of toasted coffee, finished with 'friendly' tannins that make it very easy to enjoy.",
     price: 0,
     image: [p_img83],
     category: "Chile",
@@ -1235,7 +1235,7 @@ export const products = [
   {
     _id: "wine072",
     name: "La Junta Amigo Perro Merlot",
-    description: "Strawberry and plum aromas with smooth semi sweet tannins.",
+    description: "A charming and approachable Merlot featuring vibrant strawberry and ripe plum aromas. The palate is defined by smooth, semi-sweet tannins that make it an easy-drinking favorite for casual gatherings and light pasta dishes.",
     price: 0,
     image: [p_img84],
     category: "Chile",
@@ -1247,7 +1247,7 @@ export const products = [
   {
     _id: "wine073",
     name: "La Junta Grand Reserve Petit Verdot",
-    description: "Dark fruit, chocolate and firm tannins with velvety texture.",
+    description: "A bold and sophisticated Grand Reserve that showcases the power of Petit Verdot. Intense dark fruit and decadent chocolate notes are framed by firm tannins and a luxurious, velvety texture that lingers on the finish.",
     price: 0,
     image: [p_img85],
     category: "Chile",
@@ -1259,7 +1259,7 @@ export const products = [
   {
     _id: "wine074",
     name: "La Junta Grand Reserve Cabernet Sauvignon",
-    description: "Blackcurrant, plum and mint with balanced structure and smoky finish.",
+    description: "A classic Chilean Cabernet with depth and character. Layers of blackcurrant and plum are lifted by a refreshing hint of mint, all supported by a balanced structure and a sophisticated, smoky finish.",
     price: 0,
     image: [p_img86],
     category: "Chile",
@@ -1271,7 +1271,7 @@ export const products = [
   {
     _id: "wine075",
     name: "La Junta Momentos Reserve Syrah Carmenere",
-    description: "Vibrant blend with freshness, power, structure and concentration.",
+    description: "A vibrant and expressive blend that marries the spicy power of Syrah with the structured concentration of Carmenere. This wine offers a perfect balance of freshness and intensity, making it a standout choice for grilled meats.",
     price: 0,
     image: [p_img87],
     category: "Chile",
@@ -1283,7 +1283,7 @@ export const products = [
   {
     _id: "wine076",
     name: "La Junta Momentos Grand Reserve Cabernet Franc",
-    description: "Berries, herbs, tobacco and smoke with elegant persistent finish.",
+    description: "An elegant and complex Cabernet Franc featuring a refined bouquet of forest berries, garden herbs, and tobacco. Its well-integrated smoky notes lead into a persistent and graceful finish.",
     price: 0,
     image: [p_img88],
     category: "Chile",
@@ -1295,7 +1295,7 @@ export const products = [
   {
     _id: "wine077",
     name: "La Junta Kosher Merlot Reserva",
-    description: "Cherry red with blackberry, plum aromas and silky smooth tannins.",
+    description: "Produced with meticulous care, this Kosher Reserva displays a brilliant cherry-red hue. It opens with inviting blackberry and plum aromas, followed by silky-smooth tannins that provide a polished and sophisticated mouthfeel.",
     price: 0,
     image: [p_img89],
     category: "Chile",
@@ -1304,627 +1304,659 @@ export const products = [
     date: 1716634345448,
     bestseller: true
   },
-    {
-      _id: "wine001",
-      name: "Pinot Noir Reserva La Junta",
-      description: "Light coloured wine with blue hues. Notes of strawberries and red fruit. Soft, fresh and intensely fruity with balanced acidity. Best served chilled.",
-      price: 0,
-      image: [p_img90],
-      category: "Chile",
-      subCategory: "Red Wine",
-      sizes: [],
-      date: 1716634345448,
-      bestseller: false
-    },
-    {
-      _id: "wine002",
-      name: "Chardonnay Reserva La Junta",
-      description: "Straw yellow with greenish tones. Tropical fruit aromas like banana peel with oak toasted notes. Well balanced with rounded mouthfeel.",
-      price: 0,
-      image: [p_img91],
-      category: "Chile",
-      subCategory: "White Wine",
-      sizes: [],
-      date: 1716634345448,
-      bestseller: false
-    },
-    {
-      _id: "wine003",
-      name: "Cabernet Sauvignon Reserva La Junta",
-      description: "Smooth approachable tannins with lots of juicy fruit. Easy drinking and food friendly.",
-      price: 0,
-      image: [p_img92],
-      category: "Chile",
-      subCategory: "Red Wine",
-      sizes: [],
-      date: 1716634345448,
-      bestseller: false
-    },
-    {
-      _id: "wine004",
-      name: "Malbec Reserva La Junta",
-      description: "Deep red violet colour with aromas of black fruit and cherries, delicate on the finish.",
-      price: 0,
-      image: [p_img93],
-      category: "Chile",
-      subCategory: "Red Wine",
-      sizes: [],
-      date: 1716634345448,
-      bestseller: false
-    },
-    {
-      _id: "wine005",
-      name: "Pinot Grigio IGP Veneto Paradosso Stelvin",
-      description: "Intense and characteristic. Straw yellow with green reflections. Soft, full and well balanced.",
-      price: 0,
-      image: [p_img94],
-      category: "Italy",
-      subCategory: "White Wine",
-      sizes: [],
-      date: 1716634345448,
-      bestseller: false
-    },
-    {
-      _id: "wine006",
-      name: "Indigenous Pinot Grigio Giorgio Rivetti",
-      description: "Brilliant yellow with green highlights. Aromatic with notes of red cherry, citrus, white peach and salinity.",
-      price: 0,
-      image: [p_img95],
-      category: "Italy",
-      subCategory: "White Wine",
-      sizes: [],
-      date: 1716634345448,
-      bestseller: false
-    },
-    {
-      _id: "wine007",
-      name: "Prosecco Mille Split 200ml",
-      description: "Fresh sparkling wine with strong acidity and silky, velvety bubbles.",
-      price: 0,
-      image: [p_img96],
-      category: "Italy",
-      subCategory: "Sparkling Wine",
-      sizes: [],
-      date: 1716634345448,
-      bestseller: false
-    },
-    {
-      _id: "wine008",
-      name: "Prosecco Extra Dry Mille",
-      description: "Bright acidity delivering freshness with elegant and smooth bubbles.",
-      price: 0,
-      image: [p_img97],
-      category: "Italy",
-      subCategory: "Sparkling Wine",
-      sizes: [],
-      date: 1716634345448,
-      bestseller: false
-    },
-    {
-      _id: "wine009",
-      name: "illi Prosecco Extra Dry",
-      description: "Fresh and delicate sparkling wine with light floral notes.",
-      price: 0,
-      image: [p_img98],
-      category: "Italy",
-      subCategory: "Sparkling Wine",
-      sizes: [],
-      date: 1716634345448,
-      bestseller: false
-    },
-    {
-      _id: "wine010",
-      name: "Amarone Classico Monte Danieli DOCG 2016",
-      description: "Soft warming sensations balanced by good acidity and excellent tannins. Decanter 93 points.",
-      price: 0,
-      image: [p_img99],
-      category: "Italy",
-      subCategory: "Red Wine",
-      sizes: [],
-      date: 1716634345448,
-      bestseller: true
-    },
+  {
+    _id: "wine001",
+    name: "Pinot Noir Reserva La Junta",
+    description: "A delicate and light-colored wine with beautiful blue hues. It offers an aromatic burst of fresh strawberries and red forest fruits. Soft and intensely fruity, this wine features a balanced acidity and is best enjoyed slightly chilled.",
+    price: 0,
+    image: [p_img90],
+    category: "Chile",
+    subCategory: "Red Wine",
+    sizes: ["75cl"],
+    date: 1716634345448,
+    bestseller: false
+  },
+  {
+    _id: "wine002",
+    name: "Chardonnay Reserva La Junta",
+    description: "A stunning straw-yellow Chardonnay with greenish reflections. It features exotic tropical fruit aromas, specifically banana peel, complemented by elegant toasted oak notes and a well-rounded, creamy mouthfeel.",
+    price: 0,
+    image: [p_img91],
+    category: "Chile",
+    subCategory: "White Wine",
+    sizes: ["75cl"],
+    date: 1716634345448,
+    bestseller: false
+  },
+  {
+    _id: "wine003",
+    name: "Cabernet Sauvignon Reserva La Junta",
+    description: "An incredibly approachable Reserva that emphasizes juicy fruit and supple tannins. Designed for versatility, this easy-drinking red is a perfect match for a wide variety of cuisines and everyday enjoyment.",
+    price: 0,
+    image: [p_img92],
+    category: "Chile",
+    subCategory: "Red Wine",
+    sizes: ["75cl"],
+    date: 1716634345448,
+    bestseller: false
+  },
+  {
+    _id: "wine004",
+    name: "Malbec Reserva La Junta",
+    description: "Boasting a deep red-violet color, this Malbec captures the senses with rich aromas of black fruit and ripe cherries. It is elegant and delicate on the finish, offering a refined take on this bold variety.",
+    price: 0,
+    image: [p_img93],
+    category: "Chile",
+    subCategory: "Red Wine",
+    sizes: ["75cl"],
+    date: 1716634345448,
+    bestseller: false
+  },
+  {
+    _id: "wine005",
+    name: "Pinot Grigio IGP Veneto Paradosso Stelvin",
+    description: "A characteristic Venetian Pinot Grigio with a brilliant straw-yellow color. It is soft and full-bodied on the palate, perfectly balancing freshness with a well-rounded structure. Secured with a Stelvin cap for guaranteed freshness.",
+    price: 0,
+    image: [p_img94],
+    category: "Italy",
+    subCategory: "White Wine",
+    sizes: ["75cl"],
+    date: 1716634345448,
+    bestseller: false
+  },
+  {
+    _id: "wine006",
+    name: "Indigenous Pinot Grigio Giorgio Rivetti",
+    description: "A premium, aromatic white with brilliant green highlights. It offers a complex bouquet of red cherry, citrus, and white peach, finished with a distinct mineral salinity that speaks to its unique Italian terroir.",
+    price: 0,
+    image: [p_img95],
+    category: "Italy",
+    subCategory: "White Wine",
+    sizes: ["75cl"],
+    date: 1716634345448,
+    bestseller: false
+  },
+  {
+    _id: "wine007",
+    name: "Prosecco Mille Split 200ml",
+    description: "The perfect single-serving sparkling wine. This fresh Prosecco features a lively acidity and silky, velvety bubbles that create a festive experience in a convenient 200ml split bottle.",
+    price: 0,
+    image: [p_img96],
+    category: "Italy",
+    subCategory: "Sparkling Wine",
+    sizes: ["200ml"],
+    date: 1716634345448,
+    bestseller: false
+  },
+  {
+    _id: "wine008",
+    name: "Prosecco Extra Dry Mille",
+    description: "An elegant and bright sparkling wine with a refined extra dry profile. It delivers crisp acidity and a refreshing palate, energized by smooth, persistent bubbles that are perfect for any celebration.",
+    price: 0,
+    image: [p_img97],
+    category: "Italy",
+    subCategory: "Sparkling Wine",
+    sizes: ["75cl"],
+    date: 1716634345448,
+    bestseller: false
+  },
+  {
+    _id: "wine009",
+    name: "illi Prosecco Extra Dry",
+    description: "A delicate and charming sparkling wine that highlights the floral side of the Glera grape. It is light, fresh, and effortlessly drinkable, making it an ideal choice for an aperitivo or brunch.",
+    price: 0,
+    image: [p_img98],
+    category: "Italy",
+    subCategory: "Sparkling Wine",
+    sizes: ["75cl"],
+    date: 1716634345448,
+    bestseller: false
+  },
+  {
+    _id: "wine010",
+    name: "Amarone Classico Monte Danieli DOCG 2016",
+    description: "A prestigious, award-winning Amarone (Decanter 93 points). It offers warming sensations of dried fruit and spice, masterfully balanced by vibrant acidity and world-class tannins. A rich, meditative wine for the serious connoisseur.",
+    price: 0,
+    image: [p_img99],
+    category: "Italy",
+    subCategory: "Red Wine",
+    sizes: ["75cl"],
+    date: 1716634345448,
+    bestseller: true
+  },
     {
       _id: "wine011",
       name: "Amarone Della Valpolicella Casa Erbisti DOCG",
-      description: "Fully fruity, smooth, soft and warm with a strong signature aroma.",
+      description: "A powerhouse of a wine, this Amarone is fully fruity, smooth, and warming. It features the signature bold aromas of dried plums and raisins, resulting in a rich, opulent texture that defines the Valpolicella region.",
       price: 0,
       image: [p_img100],
       category: "Italy",
       subCategory: "Red Wine",
-      sizes: [],
+      sizes: ["75cl"],
       date: 1716634345448,
       bestseller: true
     },
     {
       _id: "wine012",
       name: "Valpolicella Classico Corte Rugolin",
-      description: "Dry, full bodied and well balanced flavour profile.",
+      description: "A quintessential Italian classic. This dry, full-bodied red offers a well-balanced flavor profile with notes of bright red cherry and a hint of spice, making it a versatile companion for traditional Mediterranean cuisine.",
       price: 0,
       image: [p_img101],
       category: "Italy",
       subCategory: "Red Wine",
-      sizes: [],
+      sizes: ["75cl"],
       date: 1716634345448,
       bestseller: false
     },
     {
       _id: "wine013",
       name: "Valpolicella DOC Superior Borgo Antico Monte Cellario",
-      description: "Full and captivating with round soft tannins and classic Marasca cherry finish.",
+      description: "Captivating and full-bodied, this Superior Valpolicella charms the palate with round, soft tannins. It concludes with a classic Marasca cherry finish that is both elegant and persistent.",
       price: 0,
       image: [p_img102],
       category: "Italy",
       subCategory: "Red Wine",
-      sizes: [],
+      sizes: ["75cl"],
       date: 1716634345448,
       bestseller: false
     },
     {
       _id: "wine014",
       name: "Valpolicella Superiore Ripasso I Berari",
-      description: "Velvety structured wine with depth, elegance and traditional character.",
+      description: "A velvety, structured wine that showcases the traditional Ripasso method. It offers remarkable depth and elegance, balancing rich dark fruit with a refined, traditional Italian character.",
       price: 0,
       image: [p_img103],
       category: "Italy",
       subCategory: "Red Wine",
-      sizes: [],
+      sizes: ["75cl"],
       date: 1716634345448,
       bestseller: false
     },
     {
       _id: "wine015",
       name: "Ripasso di Valpolicella Superiore Corte Rugolin",
-      description: "Dry, full bodied and well balanced with classic Ripasso richness.",
+      description: "Crafted for those who appreciate intensity. This dry, full-bodied red is exceptionally well-balanced, delivering the classic richness and complexity expected from a high-tier Ripasso.",
       price: 0,
       image: [p_img104],
       category: "Italy",
       subCategory: "Red Wine",
-      sizes: [],
+      sizes: ["75cl"],
       date: 1716634345448,
       bestseller: false
     },
     {
       _id: "wine016",
       name: "Tiki Single Estate Sauvignon Blanc",
-      description: "Passionfruit, mango and citrus with sweet basil notes. Concentrated palate with crisp acidity.",
+      description: "An explosion of New Zealand freshness. This single-estate white bursts with passionfruit, mango, and citrus, accented by unique sweet basil notes. The palate is concentrated with a racy, crisp acidity.",
       price: 0,
       image: [p_img105],
       category: "New Zealand",
       subCategory: "White Wine",
-      sizes: [],
+      sizes: ["75cl"],
       date: 1716634345448,
       bestseller: true
     },
     {
       _id: "wine017",
       name: "Maui Sauvignon Blanc",
-      description: "Aromatic with gooseberry, nettle, dried herbs and underlying tropical citrus notes.",
+      description: "Aromatic and lively, this Marlborough-style white offers layers of gooseberry, nettle, and dried herbs. Underlying tropical citrus notes provide a refreshing finish that lingers beautifully.",
       price: 0,
       image: [p_img106],
       category: "New Zealand",
       subCategory: "White Wine",
-      sizes: [],
+      sizes: ["75cl"],
       date: 1716634345448,
       bestseller: false
     },
     {
       _id: "wine018",
       name: "Riesling Sweet Paul Barn Stelvin",
-      description: "Pale yellow with mineral and citrus aromas. Elegant balance between sweetness and acidity.",
+      description: "A masterclass in German balance. This pale yellow Riesling leads with mineral and citrus aromas, striking an elegant harmony between its natural fruit sweetness and bright, cleansing acidity.",
       price: 0,
       image: [p_img107],
       category: "Germany",
       subCategory: "White Wine",
-      sizes: [],
+      sizes: ["75cl"],
+      date: 1716634345448,
+      bestseller: false
+    },
+    {
+      _id: "it001",
+      name: 'Gavi "La Ficaia"',
+      description: "A sophisticated Piedmontese white with a brilliant straw-yellow hue and greenish traces. The bouquet is fresh and fruity, leading to a dry, light, and perfectly harmonious palate.",
+      price: 0,
+      image: [p_img108],
+      category: "Italy",
+      subCategory: "White Wine",
+      sizes: ["75cl"],
+      date: 1716634345448,
+      bestseller: false
+    },
+    {
+      _id: "it002",
+      name: 'Roero Arneis "Ibre" DOCG',
+      description: "A vibrant white wine featuring the best of the Arneis grape. Expect crisp green apple and grapefruit pith mingled with white flowers and a distinct mineral backbone.",
+      price: 0,
+      image: [p_img109],
+      category: "Italy",
+      subCategory: "White Wine",
+      sizes: ["75cl"],
+      date: 1716634345448,
+      bestseller: false
+    },
+    {
+      _id: "it003",
+      name: 'Langhe Nebbiolo DOC',
+      description: "A royal ruby red with elegant garnet reflections. This Nebbiolo is dry, velvety, and classic, offering a sophisticated tannic structure and a delicate, pleasantly bitter finish.",
+      price: 0,
+      image: [p_img110],
+      category: "Italy",
+      subCategory: "Red Wine",
+      sizes: ["75cl"],
+      date: 1716634345448,
+      bestseller: true
+    },
+    {
+      _id: "it004",
+      name: 'Barolo DOCG Piazzo',
+      description: "The 'King of Wines' in a warm, dry style. This Barolo boasts incredible structure and slinky tannins, culminating in a long, aromatic finish with a mineral edge.",
+      price: 0,
+      image: [p_img111],
+      category: "Italy",
+      subCategory: "Red Wine",
+      sizes: ["75cl"],
+      date: 1716634345448,
+      bestseller: true
+    },
+    {
+      _id: "it005",
+      name: "Brachetto d'Acqui DOCG Angelini Collection",
+      description: "A charming pale pink sparkling red. Foamy and aromatic, it is delightfully spicy and sweet with bright berry fruit and a smooth, tangy finish that keeps you coming back for more.",
+      price: 0,
+      image: [p_img112],
+      category: "Italy",
+      subCategory: "Sparkling Wine",
+      sizes: ["75cl"],
+      date: 1716634345448,
+      bestseller: false
+    },
+    {
+      _id: "it006",
+      name: 'Barolo Monvigliero "Ibre" DOCG',
+      description: "A prestigious pomegranate-red Barolo with orange reflections. It features an intense, intoxicating bouquet of roses and violets, creating a dry, warm, and harmonious experience.",
+      price: 0,
+      image: [p_img113],
+      category: "Italy",
+      subCategory: "Red Wine",
+      sizes: ["75cl"],
+      date: 1716634345448,
+      bestseller: true
+    },
+    {
+      _id: "it007",
+      name: 'Nebbiolo Verduno DOCG "Ibre" Montegliero',
+      description: "Balanced and graceful, this Verduno Nebbiolo offers soft tannins and a complex flavor profile of ripe blackberry, floral notes, fine spices, and a hint of roasted coffee.",
+      price: 0,
+      image: [p_img114],
+      category: "Italy",
+      subCategory: "Red Wine",
+      sizes: ["75cl"],
+      date: 1716634345448,
+      bestseller: false
+    },
+    {
+      _id: "it008",
+      name: 'Barolo Tenuta "Carlos Alberto"',
+      description: "An intense garnet-red Barolo that showcases the benefits of meticulous barrel aging. Sweet cherry and plum notes are beautifully integrated with subtle woody undertones and orange highlights.",
+      price: 0,
+      image: [p_img115],
+      category: "Italy",
+      subCategory: "Red Wine",
+      sizes: ["75cl"],
+      date: 1716634345448,
+      bestseller: true
+    },
+    {
+      _id: "it009",
+      name: 'Chianti Classico Rossaquercia',
+      description: "An intense ruby red that captures the soul of Tuscany. It is rich with aromatic herbs and mature fruits, offering a dry, warm, and persistent palate that feels wonderfully fresh.",
+      price: 0,
+      image: [p_img116],
+      category: "Italy",
+      subCategory: "Red Wine",
+      sizes: ["75cl"],
+      date: 1716634345448,
+      bestseller: true
+    },
+    {
+      _id: "it010",
+      name: 'Chianti Valvirginio',
+      description: "A classic and approachable Chianti. Featuring elegant floral and fruity notes, this ruby red wine is soft on the palate and perfectly balanced for everyday enjoyment.",
+      price: 0,
+      image: [p_img117],
+      category: "Italy",
+      subCategory: "Red Wine",
+      sizes: ["75cl"],
+      date: 1716634345448,
+      bestseller: false
+    },
+    {
+      _id: "it011",
+      name: 'Chianti Valvirginio Magnum 1.5L',
+      description: "The bold flavors of the Valvirginio Chianti, now in a celebratory Magnum size. Rich with cherry, violet, and soft spice, it is the ultimate centerpiece for a dinner party.",
+      price: 0,
+      image: [p_img118],
+      category: "Italy",
+      subCategory: "Red Wine",
+      sizes: ["1.5L"],
+      date: 1716634345448,
+      bestseller: false
+    },
+    {
+      _id: "it012",
+      name: 'Super Tuscan Palagetto Sottobosco',
+      description: "A modern masterpiece blending Sangiovese, Cabernet Sauvignon, and Syrah. It features youthful dark fruit flavors enhanced by a gentle oak influence, resulting in a rich and powerful profile.",
+      price: 0,
+      image: [p_img119],
+      category: "Italy",
+      subCategory: "Red Wine",
+      sizes: ["75cl"],
+      date: 1716634345448,
+      bestseller: true
+    },
+    {
+      _id: "it013",
+      name: 'Indigenous Toscana Sangiovese Giorgio Rivetti',
+      description: "A pure expression of Tuscan Sangiovese. This intense dark red wine is packed with ripe fruits and floral hints, finished with sweet spices and a remarkably fresh exit.",
+      price: 0,
+      image: [p_img120],
+      category: "Italy",
+      subCategory: "Red Wine",
+      sizes: ["75cl"],
+      date: 1716634345448,
+      bestseller: false
+    },
+    {
+      _id: "it014",
+      name: 'Chianti Palagetto Riserva Colli Senesi DOCG',
+      description: "A premium Riserva with striking violet highlights. It offers a sophisticated aromatic profile of blackberry and vanilla, supported by silky, perfectly integrated tannins.",
+      price: 0,
+      image: [p_img121],
+      category: "Italy",
+      subCategory: "Red Wine",
+      sizes: ["75cl"],
+      date: 1716634345448,
+      bestseller: false
+    },
+    {
+      _id: "it015",
+      name: 'Indigenous Primitivo Giorgio Rivetti',
+      description: "A full-bodied Primitivo that leans into its Southern Italian roots. It features chewy tannins and a soft-textured finish, bursting with sun-drenched fruit character.",
+      price: 0,
+      image: [p_img122],
+      category: "Italy",
+      subCategory: "Red Wine",
+      sizes: ["75cl"],
+      date: 1716634345448,
+      bestseller: true
+    },
+    {
+      _id: "it016",
+      name: 'Moscato Sparkling "Luna Vitea"',
+      description: "A delightfully sweet and pleasant semi-sparkling white. Perfect for dessert or celebrations, it offers light bubbles and a fresh, grapey sweetness that is universally loved.",
+      price: 0,
+      image: [p_img123],
+      category: "Italy",
+      subCategory: "Sparkling Wine",
+      sizes: ["75cl"],
+      date: 1716634345448,
+      bestseller: false
+    },
+    {
+      _id: "it017",
+      name: 'Valpolicella "I Marchesini" Monte Cillario',
+      description: "A fresh and soft Valpolicella that highlights the aromatic side of the region. Expect vibrant cherry and dried rose aromas on a palate that is smooth and incredibly inviting.",
+      price: 0,
+      image: [p_img124],
+      category: "Italy",
+      subCategory: "Red Wine",
+      sizes: ["75cl"],
+      date: 1716634345448,
+      bestseller: false
+    },
+    {
+      _id: "it018",
+      name: 'Merlot IGT Montasolo',
+      description: "Soft, warm, and intensely fruity. This medium-bodied Italian Merlot is defined by lush raspberry and blueberry flavors, making it a crowd-pleasing choice for any occasion.",
+      price: 0,
+      image: [p_img125],
+      category: "Italy",
+      subCategory: "Red Wine",
+      sizes: ["75cl"],
+      date: 1716634345448,
+      bestseller: false
+    },
+    {
+      _id: "it019",
+      name: "Montepulciano D'Abruzzo Paradosso",
+      description: "An intense red featuring a rich bouquet of soft fruits, wild flowers, and exotic spices. It is fresh and mineral-driven with a persistent finish that showcases the Abruzzo terroir.",
+      price: 0,
+      image: [p_img126],
+      category: "Italy",
+      subCategory: "Red Wine",
+      sizes: ["75cl"],
+      date: 1716634345448,
+      bestseller: true
+    },
+    {
+      _id: "it020",
+      name: "Montepulciano D'Abruzzo Riserva DOC Bakan Organic",
+      description: "A brilliant ruby-colored organic Riserva. It offers a persistent fruitiness layered with vanilla and dried fruit notes, resulting in a complex and environmentally conscious wine experience.",
+      price: 0,
+      image: [p_img127],
+      category: "Italy",
+      subCategory: "Red Wine",
+      sizes: ["75cl"],
+      date: 1716634345448,
+      bestseller: false
+    },
+    {
+      _id: "ma001",
+      name: 'Kahina AOG Guerrouane by Bernard Magrez',
+      description: "A structured and expressive Moroccan red. This bold blend of Syrah, Grenache Noir, and Tempranillo is rich and expressive, offering a unique taste of North African viticulture under the expertise of Bernard Magrez.",
+      price: 0,
+      image: [p_img128],
+      category: "Morocco",
+      subCategory: "Red Wine",
+      sizes: ["75cl"],
       date: 1716634345448,
       bestseller: false
     },
 
-  {
-    _id: "it001",
-    name: 'Gavi "La Ficaia"',
-    description: 'Straw yellow color with greenish traces. Fresh and fruity bouquet. Dry, light, fresh and harmonious.',
-    price: 0,
-    image: [p_img108],
-    category: "Italy",
-    subCategory: "White Wine",
-    date: Date.now(),
-    bestseller: false
-  },
-  {
-    _id: "it002",
-    name: 'Roero Arneis "Ibre" DOCG',
-    description: 'Fresh wine with green apple, grapefruit pith, lemon, white flowers and minerals.',
-    price: 0,
-    image: [p_img109],
-    category: "Italy",
-    subCategory: "White Wine",
-    date: Date.now(),
-    bestseller: false
-  },
-  {
-    _id: "it003",
-    name: 'Langhe Nebbiolo DOC',
-    description: 'Ruby red with garnet reflections. Dry, velvety, tannic with a delicate bitter finish.',
-    price: 0,
-    image: [p_img110],
-    category: "Italy",
-    subCategory: "Red Wine",
-    date: Date.now(),
-    bestseller: true
-  },
-  {
-    _id: "it004",
-    name: 'Barolo DOCG Piazzo',
-    description: 'Warm and dry with good structure, slinky tannins and a long aromatic mineral finish.',
-    price: 0,
-    image: [p_img111],
-    category: "Italy",
-    subCategory: "Red Wine",
-    date: Date.now(),
-    bestseller: true
-  },
-  {
-    _id: "it005",
-    name: "Brachetto d'Acqui DOCG Angelini Collection",
-    description: 'Pale pink, foamy, spicy and sweet with bright berry fruit and a smooth tangy finish.',
-    price: 0,
-    image: [p_img112],
-    category: "Italy",
-    subCategory: "Sparkling Wine",
-    date: Date.now(),
-    bestseller: false
-  },
-  {
-    _id: "it006",
-    name: 'Barolo Monvigliero "Ibre" DOCG',
-    description: 'Pomegranate red with orange reflections. Intense bouquet of roses and violets. Dry, warm and harmonious.',
-    price: 0,
-    image: [p_img113],
-    category: "Italy",
-    subCategory: "Red Wine",
-    date: Date.now(),
-    bestseller: true
-  },
-  {
-    _id: "it007",
-    name: 'Nebbiolo Verduno DOCG "Ibre" Montegliero',
-    description: 'Elegant and balanced with soft tannins. Blackberry, floral notes, spice and coffee.',
-    price: 0,
-    image: [p_img114],
-    category: "Italy",
-    subCategory: "Red Wine",
-    date: Date.now(),
-    bestseller: false
-  },
-  {
-    _id: "it008",
-    name: 'Barolo Tenuta "Carlos Alberto"',
-    description: 'Intense garnet red with orange highlights. Sweet cherry and plum notes with barrel aging.',
-    price: 0,
-    image: [p_img115],
-    category: "Italy",
-    subCategory: "Red Wine",
-    date: Date.now(),
-    bestseller: true
-  },
-  {
-    _id: "it009",
-    name: 'Chianti Classico Rossaquercia',
-    description: 'Intense ruby red. Aromatic herbs and mature fruits. Dry, warm, fresh and persistent.',
-    price: 0,
-    image: [p_img116],
-    category: "Italy",
-    subCategory: "Red Wine",
-    date: Date.now(),
-    bestseller: true
-  },
-  {
-    _id: "it010",
-    name: 'Chianti Valvirginio',
-    description: 'Ruby red with fruity and floral notes. Elegant, soft and balanced.',
-    price: 0,
-    image: [p_img117],
-    category: "Italy",
-    subCategory: "Red Wine",
-    date: Date.now(),
-    bestseller: false
-  },
-  {
-    _id: "it011",
-    name: 'Chianti Valvirginio Magnum 1.5L',
-    description: 'Bold Tuscan red with cherry, violet and soft spice notes.',
-    price: 0,
-    image: [p_img118],
-    category: "Italy",
-    subCategory: "Red Wine",
-    date: Date.now(),
-    bestseller: false
-  },
-  {
-    _id: "it012",
-    name: 'Super Tuscan Palagetto Sottobosco',
-    description: 'Blend of Sangiovese, Cabernet Sauvignon and Syrah. Youthful dark fruits with gentle oak.',
-    price: 0,
-    image: [p_img119],
-    category: "Italy",
-    subCategory: "Red Wine",
-    date: Date.now(),
-    bestseller: true
-  },
-  {
-    _id: "it013",
-    name: 'Indigenous Toscana Sangiovese Giorgio Rivetti',
-    description: 'Intense dark red with ripe fruits, floral hints, sweet spices and fresh finish.',
-    price: 0,
-    image: [p_img120],
-    category: "Italy",
-    subCategory: "Red Wine",
-    date: Date.now(),
-    bestseller: false
-  },
-  {
-    _id: "it014",
-    name: 'Chianti Palagetto Riserva Colli Senesi DOCG',
-    description: 'Ruby red with violet highlights. Blackberry, vanilla and silky integrated tannins.',
-    price: 0,
-    image: [p_img121],
-    category: "Italy",
-    subCategory: "Red Wine",
-    date: Date.now(),
-    bestseller: false
-  },
-  {
-    _id: "it015",
-    name: 'Indigenous Primitivo Giorgio Rivetti',
-    description: 'Full bodied with chewy tannins and a fruity, soft textured finish.',
-    price: 0,
-    image: [p_img122],
-    category: "Italy",
-    subCategory: "Red Wine",
-    date: Date.now(),
-    bestseller: true
-  },
-  {
-    _id: "it016",
-    name: 'Moscato Sparkling "Luna Vitea"',
-    description: 'Sweet, pleasant and semi sparkling.',
-    price: 0,
-    image: [p_img123],
-    category: "Italy",
-    subCategory: "Sparkling Wine",
-    date: Date.now(),
-    bestseller: false
-  },
-  {
-    _id: "it017",
-    name: 'Valpolicella "I Marchesini" Monte Cillario',
-    description: 'Fresh and soft palate with vibrant cherry and rose aromas.',
-    price: 0,
-    image: [p_img124],
-    category: "Italy",
-    subCategory: "Red Wine",
-    date: Date.now(),
-    bestseller: false
-  },
-  {
-    _id: "it018",
-    name: 'Merlot IGT Montasolo',
-    description: 'Soft, warm and fruity. Raspberry and blueberry flavors with medium body.',
-    price: 0,
-    image: [p_img125],
-    category: "Italy",
-    subCategory: "Red Wine",
-    date: Date.now(),
-    bestseller: false
-  },
-  {
-    _id: "it019",
-    name: "Montepulciano D'Abruzzo Paradosso",
-    description: 'Intense red with soft fruits, flowers and spices. Fresh, mineral and persistent.',
-    price: 0,
-    image: [p_img126],
-    category: "Italy",
-    subCategory: "Red Wine",
-    date: Date.now(),
-    bestseller: true
-  },
-  {
-    _id: "it020",
-    name: "Montepulciano D'Abruzzo Riserva DOC Bakan Organic",
-    description: 'Brilliant ruby color with persistent fruitiness, vanilla and dry fruit notes.',
-    price: 0,
-    image: [p_img127],
-    category: "Italy",
-    subCategory: "Red Wine",
-    date: Date.now(),
-    bestseller: false
-  },
-  {
-    _id: "ma001",
-    name: 'Kahina AOG Guerrouane by Bernard Magrez',
-    description: 'Blend of Syrah, Grenache Noir and Tempranillo. Structured, rich and expressive.',
-    price: 0,
-    image: [p_img128],
-    category: "Morocco",
-    subCategory: "Red Wine",
-    date: Date.now(),
-    bestseller: false
-  },
-
-  {
+ {
     _id: "pt001",
     name: 'Port Cabral 40 Years',
-    description: 'Sweet, suave and full bodied. Low acidity, sweet tannins, woody and ripe with a long finish.',
+    description: 'A masterpiece of aging. This 40-year-old Port is sweet, suave, and remarkably full-bodied. With low acidity and sweet, integrated tannins, it offers a woody, ripe profile and an incredibly long, meditative finish.',
     price: 0,
     image: [p_img129],
     category: "Portugal",
     subCategory: "Red Wine",
-    date: Date.now(),
+    sizes: ["75cl"],
+    date: 1716634345448,
     bestseller: true
   },
   {
     _id: "pt002",
     name: 'Port Cabral 30 Years',
-    description: 'Rich and smooth with sweet tannins. Well balanced and intense on the finish.',
+    description: 'Rich and velvety, this 30-year Port showcases the perfect marriage of fruit and wood. It features sweet tannins and a well-balanced, intense finish that lingers elegantly on the palate.',
     price: 0,
     image: [p_img130],
     category: "Portugal",
     subCategory: "Red Wine",
-    date: Date.now(),
+    sizes: ["75cl"],
+    date: 1716634345448,
     bestseller: true
   },
   {
     _id: "pt003",
     name: 'Port Cabral 20 Years',
-    description: 'Round, elegant and persistent. Smooth texture and perfectly balanced.',
+    description: 'An elegant and persistent tawny Port. Its round, smooth texture is perfectly balanced, offering a sophisticated profile of dried fruits and toasted nuts.',
     price: 0,
     image: [p_img131],
     category: "Portugal",
     subCategory: "Red Wine",
-    date: Date.now(),
+    sizes: ["75cl"],
+    date: 1716634345448,
     bestseller: false
   },
   {
     _id: "pt004",
     name: 'Port Cabral 10 Years Gold Medal',
-    description: 'Full bodied, smooth and persistent. Woodsy and well balanced.',
+    description: 'A Gold Medal-winning Port known for its full-bodied structure and persistence. It offers a wonderful woodsy character and a well-balanced sweetness that makes it an excellent dessert companion.',
     price: 0,
     image: [p_img132],
     category: "Portugal",
     subCategory: "Red Wine",
-    date: Date.now(),
+    sizes: ["75cl"],
+    date: 1716634345448,
     bestseller: false
   },
   {
     _id: "pt005",
     name: 'Port Cabral Reserva Especial Tawny',
-    description: 'Amber color with notes of vanilla, caramel, candied fruits, crème brûlée, chocolate and nuts.',
+    description: 'This Reserva Especial glows with an amber hue. It features complex notes of vanilla, caramel, and candied fruits, layered with crème brûlée, chocolate, and toasted nuts.',
     price: 0,
     image: [p_img133],
     category: "Portugal",
     subCategory: "Red Wine",
-    date: Date.now(),
+    sizes: ["75cl"],
+    date: 1716634345448,
     bestseller: true
   },
   {
     _id: "pt006",
     name: 'Port Cabral Branco Fino',
-    description: 'Suave and full bodied. Smooth with light pepper notes and balanced finish.',
+    description: 'A suave and full-bodied White Port. It is exceptionally smooth with surprising light pepper notes and a clean, balanced finish. Excellent served chilled or in a cocktail.',
     price: 0,
     image: [p_img134],
     category: "Portugal",
     subCategory: "White Wine",
-    date: Date.now(),
+    sizes: ["75cl"],
+    date: 1716634345448,
     bestseller: false
   },
   {
     _id: "pt007",
     name: 'Port Cabral LBV 2013 Unfiltered',
-    description: 'Firm tannins with persistent black fruit flavors and solid structure.',
+    description: 'A robust and unfiltered Late Bottled Vintage. It presents firm tannins and persistent black fruit flavors, supported by a solid structure that allows it to pair beautifully with blue cheeses.',
     price: 0,
     image: [p_img135],
     category: "Portugal",
     subCategory: "Red Wine",
-    date: Date.now(),
+    sizes: ["75cl"],
+    date: 1716634345448,
     bestseller: false
   },
-
   {
     _id: "pt008",
     name: 'Port Tawny Caves Santa Marta',
-    description: 'Amber color with aromas of dried fruits. Pleasant, full bodied and persistent.',
+    description: 'A classic Tawny with a beautiful amber color and inviting aromas of dried fruits. It is pleasant, full-bodied, and offers a persistent finish.',
     price: 0,
     image: [p_img136],
     category: "Portugal",
     subCategory: "Red Wine",
-    date: Date.now(),
+    sizes: ["75cl"],
+    date: 1716634345448,
     bestseller: false
   },
   {
     _id: "pt009",
     name: 'Port Ruby Caves Santa Marta',
-    description: 'Ruby color with red fruit aromas. Rich, complex and expressive.',
+    description: 'Vibrant ruby in color with a bouquet of fresh red fruits. This Port is rich, complex, and highly expressive of the Douro Valley terroir.',
     price: 0,
     image: [p_img137],
     category: "Portugal",
     subCategory: "Red Wine",
-    date: Date.now(),
+    sizes: ["75cl"],
+    date: 1716634345448,
     bestseller: false
   },
   {
     _id: "pt010",
     name: 'Port White Caves Santa Marta',
-    description: 'Velvety texture with notes of dried fruit and honey.',
+    description: 'A delicate White Port with a velvety texture. It offers sweet, alluring notes of dried fruit and honey, perfect as an aperitif.',
     price: 0,
     image: [p_img138],
     category: "Portugal",
     subCategory: "White Wine",
-    date: Date.now(),
+    sizes: ["75cl"],
+    date: 1716634345448,
     bestseller: false
   },
   {
     _id: "pt011",
     name: 'Port LBV 2017 Caves Santa Marta',
-    description: 'Ruby color with complex red fruit aromas and richness.',
+    description: 'The 2017 Late Bottled Vintage displays an intense ruby color. It is defined by its complex red fruit aromas and a rich, concentrated mouthfeel.',
     price: 0,
     image: [p_img139],
     category: "Portugal",
     subCategory: "Red Wine",
-    date: Date.now(),
+    sizes: ["75cl"],
+    date: 1716634345448,
     bestseller: false
   },
-
   {
     _id: "pt012",
     name: 'Bispo One Reserva Douro Tinto Wood Box',
-    description: 'Elegant and full bodied with dark fruits, spice and oak. Smooth tannins.',
+    description: 'Presented in a classic wood box, this Reserva is elegant and full-bodied. It features a sophisticated blend of dark fruits, spice, and oak with incredibly smooth tannins.',
     price: 0,
     image: [p_img140],
     category: "Portugal",
     subCategory: "Red Wine",
-    date: Date.now(),
+    sizes: ["75cl"],
+    date: 1716634345448,
     bestseller: true
   },
   {
     _id: "pt013",
     name: 'Lapadas White Frisante Vinho Verde',
-    description: 'Citrus color with intense fruity aroma. Fresh acidity and lively finish.',
+    description: 'A lively and refreshing Vinho Verde with a slight sparkle (Frisante). Citrus-colored with an intense fruity aroma and a zesty acidity that makes for a crisp finish.',
     price: 0,
     image: [p_img141],
     category: "Portugal",
     subCategory: "White Wine",
-    date: Date.now(),
+    sizes: ["75cl"],
+    date: 1716634345448,
     bestseller: false
   },
-
   {
     _id: "it021",
     name: "Pecorino D'Abruzzo Pasetti DOP",
-    description: 'Bright straw yellow with aromas of elderberry, grapefruit and yellow fruits.',
+    description: "A bright straw-yellow Italian white featuring a fragrant bouquet of elderberry, grapefruit, and ripe yellow fruits. It is crisp, aromatic, and full of character.",
     price: 0,
     image: [p_img142],
     category: "Italy",
     subCategory: "White Wine",
-    date: Date.now(),
+    sizes: ["75cl"],
+    date: 1716634345448,
     bestseller: false
   },
   {
     _id: "it022",
     name: 'Verdicchio Classico Superiore Vignedileo DOC',
-    description: 'Straw yellow with green hues. Vanilla, tropical fruit, floral tones and hint of anise.',
+    description: "Elegant straw-yellow with green hues. This Verducchio offers a complex nose of vanilla and tropical fruit, rounded out by floral tones and a subtle hint of anise.",
     price: 0,
     image: [p_img143],
     category: "Italy",
     subCategory: "White Wine",
-    date: Date.now(),
+    sizes: ["75cl"],
+    date: 1716634345448,
     bestseller: false
   },
   {
     _id: "SPA-R375-420",
     name: "Torremilanos Crianza ORGANIC (Half Bottle)",
-    description: "Dark color with red and purple notes. Intense notes of black pepper, spice, sweet oak, and dark fruits.",
+    description: "An intense organic Crianza in a convenient half-bottle. Dark red with purple highlights, it features powerful notes of black pepper, spice, sweet oak, and dark forest fruits.",
     price: 15, 
     image: [p_img144],
     category: "Spain",
@@ -1932,11 +1964,11 @@ export const products = [
     sizes: ["375ml"],
     date: 1716634345448,
     bestseller: false
-},
-{
+  },
+  {
     _id: "SPA-R6-250",
     name: "Torre Albeniz Reserva ORGANIC",
-    description: "Signature perfume notes of Ribera del Duero with structure and minerality from 86-year-old vines.",
+    description: "Produced from 86-year-old vines, this organic Reserva offers the signature perfume of Ribera del Duero. It is a structured and mineral-driven wine of exceptional quality.",
     price: 45,
     image: [p_img145],
     category: "Spain",
@@ -1944,11 +1976,11 @@ export const products = [
     sizes: ["75cl"],
     date: 1716634345449,
     bestseller: true
-},
-{
+  },
+  {
     _id: "SPA-R6-290",
     name: "Torremilanos Coleccion ORGANIC",
-    description: "Bold red wine with expressive flavors of blackberry, black licorice, and mineral. Elegant ripe tannins.",
+    description: "A bold, expressive organic red. It features deep flavors of blackberry and black licorice with a distinct mineral streak and elegant, ripe tannins.",
     price: 60,
     image: [p_img146],
     category: "Spain",
@@ -1956,11 +1988,11 @@ export const products = [
     sizes: ["75cl"],
     date: 1716634345450,
     bestseller: false
-},
-{
+  },
+  {
     _id: "SPAAN-R6-150",
     name: "Cariñena 'Anayon' - 10 Months",
-    description: "Mid-toned ruby color; intense sweet aromas of cherries, raspberry jam, and chocolate.",
+    description: "Aged for 10 months, this mid-toned ruby red bursts with intense, sweet aromas of cherries and raspberry jam, finished with a touch of decadent chocolate.",
     price: 35,
     image: [p_img147],
     category: "Spain",
@@ -1968,11 +2000,11 @@ export const products = [
     sizes: ["75cl"],
     date: 1716634345451,
     bestseller: false
-},
-{
+  },
+  {
     _id: "SPAAN-W6-220",
     name: "Chardonnay 'Anayon' - 6 Months",
-    description: "Bright pale lemon color; aromas of white flowers, honeysuckle, almond, and tropical fruits.",
+    description: "A bright, pale lemon Chardonnay aged for 6 months. It offers a fragrant nose of white flowers and honeysuckle, balanced by almond and tropical fruit notes.",
     price: 38,
     image: [p_img148],
     category: "Spain",
@@ -1980,11 +2012,11 @@ export const products = [
     sizes: ["75cl"],
     date: 1716634345452,
     bestseller: false
-},
-{
+  },
+  {
     _id: "SPRU-R-900",
     name: "Tempranillo Roble 'Arroyo'",
-    description: "Fine and elegant; enhances ripe blackberry and strawberry. Soft and round tannin.",
+    description: "Fine and elegant, this 'Roble' style emphasizes ripe blackberry and strawberry. The short oak aging ensures soft, round tannins and a fresh fruit profile.",
     price: 25,
     image: [p_img149],
     category: "Spain",
@@ -1992,11 +2024,11 @@ export const products = [
     sizes: ["75cl"],
     date: 1716634345453,
     bestseller: false
-},
-{
+  },
+  {
     _id: "SPRU-R-910",
     name: "Crianza Tempranillo 'Arroyo'",
-    description: "Very delicate entry; ripe blackberry and strawberry flavors. Structured mouthfeel.",
+    description: "A delicate entry leads to a powerful palate of ripe blackberry and strawberry. This Crianza offers a structured mouthfeel that reflects its time in oak.",
     price: 32,
     image: [p_img150],
     category: "Spain",
@@ -2004,11 +2036,11 @@ export const products = [
     sizes: ["75cl"],
     date: 1716634345454,
     bestseller: false
-},
-{
+  },
+  {
     _id: "SPMI-R-600",
     name: "Fuentes Del Silencio – Las Jaras Crianza",
-    description: "Deep ruby color. Aromas of black fruits, balsamic notes, and hints of rockrose.",
+    description: "A deep ruby red from a unique Spanish micro-terroir. It features intense aromas of black fruits and balsamic notes, with a hint of wild rockrose.",
     price: 40,
     image: [p_img151],
     category: "Spain",
@@ -2016,11 +2048,11 @@ export const products = [
     sizes: ["75cl"],
     date: 1716634345455,
     bestseller: false
-},
-{
+  },
+  {
     _id: "SPMI-R-700",
     name: "Fuentes Del Silencio – Las Quintas",
-    description: "Bright cherry color. Aromas of red fruit, toasted notes, cut grass, and juniper.",
+    description: "Brilliant cherry red with a complex nose of red fruit and toasted notes. Unexpected hints of cut grass and juniper add a fascinating layer to this elegant wine.",
     price: 55,
     image: [p_img152],
     category: "Spain",
@@ -2028,11 +2060,11 @@ export const products = [
     sizes: ["75cl"],
     date: 1716634345456,
     bestseller: true
-},
-{
+  },
+  {
     _id: "SPMI-R-800",
     name: "Fuentes Del Silencio – La Gandara",
-    description: "Aromas of wildflowers, 'jaras' (scrub), and exuberant red fruits. Fresh and delicate.",
+    description: "A fresh and delicate masterpiece. It opens with exuberant red fruits and wildflowers, supported by the unique 'jaras' (scrubland) scent of the estate.",
     price: 75,
     image: [p_img153],
     category: "Spain",
@@ -2040,11 +2072,11 @@ export const products = [
     sizes: ["75cl"],
     date: 1716634345457,
     bestseller: false
-},
-{
+  },
+  {
     _id: "SPMI-W-900",
     name: "Fuentes Del Silencio – Mataperezosa White",
-    description: "Straw yellow with hints of gold. Aromas of white flowers, citrus, and aniseed.",
+    description: "Straw yellow with golden glints. This refined white offers a bouquet of white flowers and citrus, finished with a distinctive touch of aniseed.",
     price: 42,
     image: [p_img154],
     category: "Spain",
@@ -2052,11 +2084,11 @@ export const products = [
     sizes: ["75cl"],
     date: 1716634345458,
     bestseller: false
-},
-{
+  },
+  {
     _id: "CALSA-R-520",
     name: "Ridgeback Lion Hound Cabernet Sauvignon",
-    description: "Sustainable/Vegan. Herbal notes with juicy black fruits, spice, leather, and mulberry.",
+    description: "A sustainable and vegan-friendly Cabernet. It balances herbal notes with juicy black fruits, finished with notes of spice, leather, and mulberry.",
     price: 28,
     image: [p_img155],
     category: "South Africa",
@@ -2064,11 +2096,11 @@ export const products = [
     sizes: ["75cl"],
     date: 1716634345459,
     bestseller: false
-},
-{
+  },
+  {
     _id: "CALSA-R-530",
     name: "Ridgeback African Ember Blend",
-    description: "Sustainable/Vegan. Medium ruby color. Black cherries, spice, black pepper, and liquorice.",
+    description: "A medium-ruby sustainable blend featuring black cherries and spice. Accents of black pepper and liquorice provide a complex South African profile.",
     price: 30,
     image: [p_img156],
     category: "South Africa",
@@ -2076,11 +2108,11 @@ export const products = [
     sizes: ["75cl"],
     date: 1716634345460,
     bestseller: false
-},
-{
+  },
+  {
     _id: "CALSA-W-500",
     name: "Dekker's Valley Seraphic",
-    description: "51% Chenin Blanc, 29% Chardonnay, 20% Viognier. Sustainable and vegan friendly white.",
+    description: "A curated white blend of Chenin Blanc, Chardonnay, and Viognier. Sustainable and vegan-friendly, it offers a beautifully balanced and harmonious drinking experience.",
     price: 22,
     image: [p_img157],
     category: "South Africa",
@@ -2088,11 +2120,11 @@ export const products = [
     sizes: ["75cl"],
     date: 1716634345461,
     bestseller: false
-},
-{
+  },
+  {
     _id: "CALSA-W-710",
     name: "Pinotage White Mellasat",
-    description: "Crisp and clean with tropical fruit, nutty, and citrus notes. A unique white Pinotage.",
+    description: "A rare and unique white wine made from red Pinotage grapes. Crisp and clean with tropical fruit, nutty undertones, and bright citrus notes.",
     price: 26,
     image: [p_img158],
     category: "South Africa",
@@ -2100,55 +2132,55 @@ export const products = [
     sizes: ["75cl"],
     date: 1716634345462,
     bestseller: false
-},
-{
+  },
+  {
     _id: "COKW-R187-500",
     name: "Merlot 'Off The Hook'",
-    description: "Deep purple. Flavors of blackberry jam, wet earth, and roasted peppers.",
+    description: "A convenient 187ml serving of deep purple Merlot. Expect bold flavors of blackberry jam, wet earth, and roasted peppers in a compact format.",
     price: 8,
     image: [p_img159],
-    category: "USA",
+    category: "Spain",
     subCategory: "Red Wine",
     sizes: ["187ml"],
     date: 1716634345463,
     bestseller: false
-},
-{
+  },
+  {
     _id: "COKW-W187-200",
     name: "Chardonnay 'Off The Hook'",
-    description: "Straw color. Aromas of lemon rind, ripe apple, and buttered toast. Lean and soft.",
+    description: "Lean and soft, this 187ml Chardonnay offers aromas of lemon rind, ripe apple, and buttered toast. A perfect single-serving white.",
     price: 8,
     image: [p_img160],
-    category: "USA",
+    category: "Spain",
     subCategory: "White Wine",
     sizes: ["187ml"],
     date: 1716634345464,
     bestseller: false
-},
-{
+  },
+  {
     _id: "COKW-R187-400",
     name: "Cabernet Sauvignon 'Off The Hook'",
-    description: "Dark dusty garnet. Aromas of mixed berry syrup, cherry, and cola. Medium body.",
+    description: "A medium-bodied Cabernet in a 187ml split. Dark dusty garnet in color with aromas of mixed berry syrup, cherry, and a hint of cola.",
     price: 8,
     image: [p_img161],
-    category: "USA",
+    category: "Spain",
     subCategory: "Red Wine",
     sizes: ["187ml"],
     date: 1716634345465,
     bestseller: false
-},
-{
+  },
+  {
     _id: "COKW-SW200-100TT",
     name: "Sparkling Split 'Off The Hook'",
-    description: "A crisp and lively sparkling wine with notes of tropical fruit and citrus.",
+    description: "Celebrate anywhere with this 200ml sparkling split. Crisp and lively, it features refreshing notes of tropical fruit and citrus.",
     price: 10,
     image: [p_img162],
-    category: "USA",
+    category: "Spain",
     subCategory: "Sparkling Wine",
     sizes: ["200ml"],
     date: 1716634345466,
     bestseller: false
-}
+  }
   
   
 ]
