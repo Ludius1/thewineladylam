@@ -13,17 +13,26 @@ const Products = () => {
   const [image, setImage] = useState('')
   const [size, setSize] = useState('')
 
-  const fetchProductData = async () => {
-      products.map((item) => {
+  // const fetchProductData = async () => {
+  //     products.map((item) => {
         
-          if(item._id === productId) {
-            setProductData(item)
-            setImage(item.image[0])
-            console.log(item)
-            return null
-          }
-      })
+  //         if(item._id === productId) {
+  //           setProductData(item)
+  //           setImage(item.image[0])
+  //           console.log(item)
+  //           return null
+  //         }
+  //     })
+  // }
+  const fetchProductData = () => {
+  const product = products.find(item => item._id === productId)
+
+  if(product){
+    setProductData(product)
+    setImage(product.image[0])
   }
+}
+
 
   useEffect (()=> {
     fetchProductData()
@@ -65,7 +74,17 @@ const Products = () => {
                         <p className="pl-2">(122)</p>
                     </div>
                     {/* <p className='mt-5 text-3xl font-medium'>{currency}{productData.price}</p> */}
-                    <p className="mt-5 text-gray-500 md:w-4/5">{productData.description}</p>
+                    {/* <p className="mt-5 text-gray-500 md:w-4/5">{productData.description}</p> */}
+                    <div className="mt-5 text-gray-500 md:w-4/5 flex flex-col gap-1">
+                      <p><span className="font-medium text-gray-700">Country:</span> {productData.country}</p>
+                      <p><span className="font-medium text-gray-700">Region:</span> {productData.region}</p>
+                      <p><span className="font-medium text-gray-700">Alcohol:</span> {productData.alcohol}</p>
+                      <p><span className="font-medium text-gray-700">Style:</span> {productData.style}</p>
+
+                      <p className="mt-3">{productData.description}</p>
+
+</div>
+
 
                     <div className="flex flex-col gap-4 my-8 ">
                           {/* <p>Select size</p> */}
@@ -78,12 +97,12 @@ const Products = () => {
                           </div>
 
                           <div>
-                              <button onClick={()=>addToCart(productData._id,size)} className='bg-black text-white px-8 py-3 text-sm active:bg-gray-700'>ADD TO CART</button>
+                              <button onClick={()=>addToCart(productData._id,size)} className=' bg-red-500 text-white px-8 py-3 text-sm active:bg-gray-700'>Ask For Availability</button>
                               <hr className="mt-8 sm:4/5" />
                               <div className="text-sm text-gray-500 mt-5 flex flex-col gap-1">
                                 <p>100% Original Products</p>
-                                <p>Calcium delivery is available on this products</p>
-                                <p>Easily return and exchange policy within 7 days</p>
+                                <p>Available by case and wholesale order</p>
+                                <p>Request availability & pricing</p>
                               </div>
                           </div>
 
