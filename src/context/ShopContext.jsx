@@ -1,6 +1,7 @@
 import { createContext, useEffect, useState } from "react";
 import { products } from "../assets/frontend_assets/assets";
 import { useNavigate } from "react-router-dom";
+import { toast } from "react-toastify";
 
 export const ShopContext = createContext();
 
@@ -9,15 +10,16 @@ const ShopContextProvider = (props) => {
     const currency = '$';
     const delivery_fee = 10;
     
-    // --- SEARCH STATES ADDED HERE ---
+    // Search states for Navbar Option B
     const [search, setSearch] = useState('');
     const [showSearch, setShowSearch] = useState(false);
-    // --------------------------------
 
     const [cartItems, setCartItems] = useState({});
     const navigate = useNavigate();
 
-    const addToCart = (itemId, size = null) => {
+    // UPDATED: Proceeds regardless of whether a size is selected
+    const addToCart = (itemId, size) => {
+        
         setCartItems(prev => {
             const cartData = structuredClone(prev);
 
@@ -25,8 +27,13 @@ const ShopContextProvider = (props) => {
                 cartData[itemId] = {};
             }
 
-            const key = size || 'default';
+            // Logic: Use the selected size, or default to 'Standard' if empty
+            const key = size && size !== '' ? size : 'Standard';
+
             cartData[itemId][key] = (cartData[itemId][key] || 0) + 1;
+            
+            // Provide feedback that the inquiry was registered
+            toast.success("Added to availability inquiry");
 
             return cartData;
         });
@@ -63,7 +70,6 @@ const ShopContextProvider = (props) => {
         return total;
     }
 
-    // --- UPDATED VALUE OBJECT ---
     const value = {
         products,
         currency,
@@ -74,15 +80,15 @@ const ShopContextProvider = (props) => {
         updateQuantity,
         getCartAmount,
         navigate,
-        search,        // Shared across components
-        setSearch,     // Function to update search text
-        showSearch,    // Shared visibility state
-        setShowSearch  // Function to toggle visibility
+        search,
+        setSearch,
+        showSearch,
+        setShowSearch
     }
 
     useEffect(() => {
-        // Keeping your debug log
-        console.log(cartItems);
+        // Debugging: View your current inquiries in the console
+        console.log("Current Cart/Inquiry State:", cartItems);
     }, [cartItems]);
 
     return (
