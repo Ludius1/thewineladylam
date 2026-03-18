@@ -1,83 +1,95 @@
-import { createContext, useEffect, useState } from "react"
-import { products } from "../assets/frontend_assets/assets"
-import { useNavigate } from "react-router-dom"
+import { createContext, useEffect, useState } from "react";
+import { products } from "../assets/frontend_assets/assets";
+import { useNavigate } from "react-router-dom";
 
-export const ShopContext = createContext()
+export const ShopContext = createContext();
 
 const ShopContextProvider = (props) => {
 
-  const currency = '$'
-  const delivery_fee = 10
-  const [cartItems, setCartItems] = useState({})
-  const navigate = useNavigate()
+    const currency = '$';
+    const delivery_fee = 10;
+    
+    // --- SEARCH STATES ADDED HERE ---
+    const [search, setSearch] = useState('');
+    const [showSearch, setShowSearch] = useState(false);
+    // --------------------------------
 
-  const addToCart = (itemId, size = null) => {
-    setCartItems(prev => {
-      const cartData = structuredClone(prev)
+    const [cartItems, setCartItems] = useState({});
+    const navigate = useNavigate();
 
-      if (!cartData[itemId]) {
-        cartData[itemId] = {}
-      }
+    const addToCart = (itemId, size = null) => {
+        setCartItems(prev => {
+            const cartData = structuredClone(prev);
 
-      const key = size || 'default'
-      cartData[itemId][key] = (cartData[itemId][key] || 0) + 1
+            if (!cartData[itemId]) {
+                cartData[itemId] = {};
+            }
 
-      return cartData
-    })
-  }
+            const key = size || 'default';
+            cartData[itemId][key] = (cartData[itemId][key] || 0) + 1;
 
-  const getCartCount = () => {
-    let total = 0
-    for (const itemId in cartItems) {
-      for (const key in cartItems[itemId]) {
-        total += cartItems[itemId][key]
-      }
+            return cartData;
+        });
     }
-    return total
-  }
 
-  const updateQuantity = (itemId, key, quantity) => {
-    setCartItems(prev => {
-      const cartData = structuredClone(prev)
-      cartData[itemId][key] = quantity
-      return cartData
-    })
-  }
-
-  const getCartAmount = () => {
-    let total = 0
-    for (const itemId in cartItems) {
-      const itemInfo = products.find(p => p._id === itemId)
-      if (!itemInfo) continue
-
-      for (const key in cartItems[itemId]) {
-        total += itemInfo.price * cartItems[itemId][key]
-      }
+    const getCartCount = () => {
+        let total = 0;
+        for (const itemId in cartItems) {
+            for (const key in cartItems[itemId]) {
+                total += cartItems[itemId][key];
+            }
+        }
+        return total;
     }
-    return total
-  }
 
-  const value = {
-    products,
-    currency,
-    delivery_fee,
-    cartItems,
-    addToCart,
-    getCartCount,
-    updateQuantity,
-    getCartAmount,
-    navigate
-  }
+    const updateQuantity = (itemId, key, quantity) => {
+        setCartItems(prev => {
+            const cartData = structuredClone(prev);
+            cartData[itemId][key] = quantity;
+            return cartData;
+        });
+    }
 
-  useEffect(() => {
-    console.log(cartItems)
-  }, [cartItems])
+    const getCartAmount = () => {
+        let total = 0;
+        for (const itemId in cartItems) {
+            const itemInfo = products.find(p => p._id === itemId);
+            if (!itemInfo) continue;
 
-  return (
-    <ShopContext.Provider value={value}>
-      {props.children}
-    </ShopContext.Provider>
-  )
+            for (const key in cartItems[itemId]) {
+                total += itemInfo.price * cartItems[itemId][key];
+            }
+        }
+        return total;
+    }
+
+    // --- UPDATED VALUE OBJECT ---
+    const value = {
+        products,
+        currency,
+        delivery_fee,
+        cartItems,
+        addToCart,
+        getCartCount,
+        updateQuantity,
+        getCartAmount,
+        navigate,
+        search,        // Shared across components
+        setSearch,     // Function to update search text
+        showSearch,    // Shared visibility state
+        setShowSearch  // Function to toggle visibility
+    }
+
+    useEffect(() => {
+        // Keeping your debug log
+        console.log(cartItems);
+    }, [cartItems]);
+
+    return (
+        <ShopContext.Provider value={value}>
+            {props.children}
+        </ShopContext.Provider>
+    )
 }
 
-export default ShopContextProvider
+export default ShopContextProvider;
