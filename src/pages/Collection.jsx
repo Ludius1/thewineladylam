@@ -139,7 +139,7 @@ const Collection = () => {
           <p className="mb-3 text-sm font-medium">TYPE</p>
           <div className="flex flex-col gap-2 text-sm text-gray-700">
             {[
-              'White Wine','Red Wine','Sparkling Wine','Champagne','Rose Wine',
+              'White Wine','Red Wine','Sparkling Wine','Champagne','Rose Wine', 'Beer', 'Beverages',
               'Gin','Sweet Wine','Whiskey','Tequila','Bourbon','Vodka'
             ].map((item, index) => (
               <label key={index} className="flex gap-2">
