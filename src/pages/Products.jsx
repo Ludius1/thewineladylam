@@ -80,6 +80,9 @@ const Products = () => {
                       <p><span className="font-medium text-gray-700">Region:</span> {productData.region}</p>
                       <p><span className="font-medium text-gray-700">Alcohol:</span> {productData.alcohol}</p>
                       <p><span className="font-medium text-gray-700">Style:</span> {productData.style}</p>
+                       <p><span className="font-medium text-gray-700">Grape:</span> {productData.grape}</p>
+                        <p><span className="font-medium text-gray-700">Food Pairing:</span> {productData.foodPairing}</p>
+                      
 
                       <p className="mt-3">{productData.description}</p>
 
