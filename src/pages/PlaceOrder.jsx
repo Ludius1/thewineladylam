@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react'
 import Title from '../components/Title'
-import CartTotal from '../components/CartTotal'
 import { ShopContext } from '../context/ShopContext'
+import { toast } from 'react-toastify'
 
 const PlaceOrder = () => {
 
@@ -27,6 +27,15 @@ const PlaceOrder = () => {
   }
 
   const handlePlaceOrder = async () => {
+
+    const isFormValid = Object.values(formData).every(value => value.trim() !== '')
+
+    // ✅ TOAST VALIDATION (same concept as product page)
+    if (!isFormValid) {
+      toast.error('Fill all fields to place your order.')
+      return
+    }
+
     const orderItems = []
 
     for (const itemId in cartItems) {
@@ -34,7 +43,7 @@ const PlaceOrder = () => {
       if (!product) continue
 
       for (const key in cartItems[itemId]) {
-        if (cartItems[itemId][key] > 0) { // Only add if quantity > 0
+        if (cartItems[itemId][key] > 0) {
           orderItems.push({
             name: product.name,
             size: key,
@@ -45,11 +54,16 @@ const PlaceOrder = () => {
       }
     }
 
-    // Keep total in payload for your backend records if needed
+    // ✅ OPTIONAL: empty cart check (same UX logic style)
+    if (orderItems.length === 0) {
+      toast.error('Your cart is empty.')
+      return
+    }
+
     const orderPayload = {
       customer: formData,
       items: orderItems,
-      total: getCartAmount() 
+      total: getCartAmount()
     }
 
     try {
@@ -59,10 +73,11 @@ const PlaceOrder = () => {
         body: JSON.stringify(orderPayload)
       })
     } catch (error) {
-      console.error('Email sending failed', error)
+      console.error('Order sending failed', error)
+      toast.error('Something went wrong, try again.')
+      return
     }
 
-    // REMOVED TOTAL FROM THE MESSAGE BELOW
     const message = `
 Hola Winelady, I want to place an order.
 
@@ -74,10 +89,17 @@ Order:
 ${orderItems.map(i => `${i.name} (${i.size}) x${i.quantity}`).join('\n')}
 `
 
-    const whatsappNumber = '17869757896' 
+    const whatsappNumber = '17869757896'
     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`
-    window.location.href = whatsappUrl
+
+    // ✅ Nice feedback before redirect
+    toast.success('Redirecting to WhatsApp...')
+
+    setTimeout(() => {
+      window.location.href = whatsappUrl
+    }, 1000)
   }
+
   return (
     <div className='flex flex-col justify-between gap-4 pt-5 sm:pt-14 sm:flex-row min-h-[80h] border-t'>
 
@@ -110,10 +132,6 @@ ${orderItems.map(i => `${i.name} (${i.size}) x${i.quantity}`).join('\n')}
 
       {/* Right side */}
       <div className="mt-8">
-        <div className="mt-8 min-w-80">
-          {/* <CartTotal /> */}
-        </div>
-
         <div className="mt-12">
           <Title text1={'PAYMENT'} text2={'METHOD'} />
 
@@ -124,7 +142,7 @@ ${orderItems.map(i => `${i.name} (${i.size}) x${i.quantity}`).join('\n')}
           <div className="w-full text-end mt-8">
             <button
               onClick={handlePlaceOrder}
-              className="bg-black text-white px-16 py-3 text-sm"
+              className="bg-red-500 text-white px-16 py-3 text-sm"
             >
               PLACE ORDER
             </button>
